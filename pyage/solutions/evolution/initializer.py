@@ -1,6 +1,7 @@
 from random import uniform
 from pyage.core.emas import EmasAgent
 from pyage.core.operator import Operator
+from pyage.core.pso import PsoAgent
 from pyage.solutions.evolution.genotype import PointGenotype, FloatGenotype
 
 class PointInitializer(Operator):
@@ -47,3 +48,9 @@ def emas_initializer(energy=10, size=100, lowerbound=0.0, upperbound=1.0):
         agents[agent.get_address()] = agent
     return agents
 
+def pso_initializer(dims=2, energy=10, size=100, lowerbound=0.0, upperbound=1.0):
+    agents = {}
+    for i in range(size):
+        agent = PsoAgent(FloatGenotype([uniform(lowerbound, upperbound) for _ in range(dims)]), energy)
+        agents[agent.get_address()] = agent
+    return agents
