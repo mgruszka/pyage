@@ -15,29 +15,26 @@ from pyage.solutions.evolution.initializer import pso_initializer
 
 logger = logging.getLogger(__name__)
 
-agents_count = 1 #int(os.environ['AGENTS'])
+agents_count = 1
 logger.debug("PSO, %s agents", agents_count)
 agents = unnamed_agents(agents_count, AggregateAgent)
 
 stop_condition = lambda: StepLimitStopCondition(1001)
 
-aggregated_agents = lambda: pso_initializer(40, energy=100, size=10, lowerbound=-10, upperbound=10)
+aggregated_agents = lambda: pso_initializer(40, size=50, lowerbound=-10, upperbound=10)
 
 pso = PsoService
 
-global_velocity = lambda: 0.5
-local_velocity = lambda: 0.5
-random_velocity = lambda: 0.1
+global_velocity = lambda: 0.4
+local_velocity = lambda: 0.2
+random_velocity = lambda: 0.01
 
 
 evaluation = FloatRastriginEvaluation
-# crossover = SinglePointCrossover
-# mutation = NormalMutation
 
 address_provider = address.SequenceAddressProvider
-
-# migration = ParentMigration
 
 locator = lambda: TorusLocator(10, 10)
 
 stats = lambda: StepStatistics('fitness_%s_pyage.txt' % __name__)
+
