@@ -1,6 +1,5 @@
 # coding=utf-8
 import logging
-import os
 
 from pyage.core import address
 from pyage.core.agent.agent import unnamed_agents
@@ -21,7 +20,7 @@ agents = unnamed_agents(agents_count, AggregateAgent)
 
 stop_condition = lambda: StepLimitStopCondition(1001)
 
-aggregated_agents = lambda: pso_initializer(40, size=50, lowerbound=-10, upperbound=10)
+aggregated_agents = lambda: pso_initializer(40, size=10, lowerbound=-10, upperbound=10)
 
 pso = PsoService
 

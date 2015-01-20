@@ -21,7 +21,7 @@ class StepStatistics(Statistics):
             best_fitness = max(a.get_fitness() for a in agents)
             logger.info(best_fitness)
             self.history.append(best_fitness)
-            if (step_count - 1) % 100 == 0:
+            if (step_count - 1) % 10 == 0:
                 self.append(best_fitness, step_count)
         except:
             logging.exception("")

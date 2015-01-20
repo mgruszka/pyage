@@ -22,7 +22,7 @@ agents_count = int(os.environ['AGENTS'])
 logger.debug("EMAS, %s agents", agents_count)
 agents = unnamed_agents(agents_count, AggregateAgent)
 
-stop_condition = lambda: StepLimitStopCondition(1000)
+stop_condition = lambda: StepLimitStopCondition(1001)
 
 aggregated_agents = lambda: float_emas_initializer(40, energy=100, size=50, lowerbound=-10, upperbound=10)
 
