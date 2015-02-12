@@ -45,7 +45,7 @@ def save_plot(plot_file_name):
     # plt.show()
     plt.savefig(plot_file_name)
 
-
-draw_plot("fitness_pyage.conf.femas_single_pyage.txt", "Femas", "green", 1000)
-draw_plot("fitness_pyage.conf.pso_basic_pyage.txt", "PSO", "red", 1000)
-save_plot("test_compare.png")
+draw_plot("fitness_pyage.conf.femas_single_pyage.txt", "Femas single", "green", 1000)
+draw_plot("fitness_pyage.conf.pso_basic_pyage.txt", "PSO basic", "blue", 1000)
+draw_plot("fitness_pyage.conf.femas_pso_pyage.txt", "Femas PSO", "red", 1000)
+save_plot("compared.png")
