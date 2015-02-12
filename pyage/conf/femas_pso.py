@@ -6,6 +6,7 @@ from pyage.core import address
 from pyage.core.agent.agent import unnamed_agents
 from pyage.core.agent.aggregate import AggregateAgent
 from pyage.core.emas import EmasService
+from pyage.core.emaspso import EmasPsoService
 from pyage.core.locator import TorusLocator
 from pyage.core.migration import ParentMigration
 from pyage.core.stats.gnuplot import StepStatistics
@@ -26,13 +27,17 @@ stop_condition = lambda: StepLimitStopCondition(3001)
 
 aggregated_agents = lambda: float_emas_initializer(40, energy=100, size=50, lowerbound=-10, upperbound=10)
 
-emas = EmasService
+emas = EmasPsoService
 
 minimal_energy = lambda: 0
 reproduction_minimum = lambda: 90
 migration_minimum = lambda: 120
 newborn_energy = lambda: 100
 transferred_energy = lambda: 40
+
+global_velocity = lambda: 0.4
+local_velocity = lambda: 0.2
+random_velocity = lambda: 0.01
 
 evaluation = FloatRastriginEvaluation
 crossover = SinglePointCrossover
