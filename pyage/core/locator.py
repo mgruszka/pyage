@@ -78,6 +78,16 @@ class TorusLocator(Locator):
         except IndexError:
             return None
 
+    def get_neighbours(self, agent):
+        try:
+            self._remove_dead()
+            x, y = self._get_coords(agent)
+            neighbours = [self._grid[i][j] for (i, j) in (self._get_nieghbour_coords(x, y)) if
+                          self._grid[i][j] is not None]
+            return neighbours
+        except IndexError:
+            return None
+
     def _get_coords(self, agent):
         for i, row in enumerate(self._grid):
             for j, value in enumerate(row):
