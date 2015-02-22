@@ -16,7 +16,7 @@ if __name__ == '__main__':
     level = logging.INFO
     if len(sys.argv) >= 3:
         level = getattr(logging, sys.argv[2].upper(), None)
-    logging.basicConfig(filename='pyage-' + datetime.now().strftime("%Y%m%d_%H%M%S") + '.log', level=level)
+    logging.basicConfig(filename='log/pyage-' + datetime.now().strftime("%Y%m%d_%H%M%S") + '.log', level=level)
     inject.config = sys.argv[1]
     logging.debug("config: %s", inject.config)
     workplace = Workplace()

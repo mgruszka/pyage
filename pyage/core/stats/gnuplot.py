@@ -1,17 +1,23 @@
 import logging
 import time
 from pyage.core.statistics import Statistics
+from pyage.core.stats.diversity import compute_diversity
 
 logger = logging.getLogger(__name__)
 
 
 class StepStatistics(Statistics):
-    def __init__(self, output_file_name='fitness_pyage.txt'):
+    def __init__(self, output_file_name='fitness_pyage.txt', count_file_name='agents_count_pyage.txt', diversity_file_name='diversity_pyage.txt'):
         self.history = []
         self.fitness_output = open(output_file_name, 'a')
+        self.count_output = open(count_file_name, 'a')
+        self.msd_diversity_output = open('msd_' + diversity_file_name, 'a')
+        self.moi_diversity_output = open('moi_' + diversity_file_name, 'a')
 
     def __del__(self):
         self.fitness_output.close()
+        self.count_output.close()
+        self.diversity_output.close()
 
     def append(self, best_fitness, step_count):
         self.fitness_output.write(str(step_count - 1) + ';' + str(abs(best_fitness)) + '\n')
@@ -23,6 +29,8 @@ class StepStatistics(Statistics):
             self.history.append(best_fitness)
             if (step_count - 1) % 10 == 0:
                 self.append(best_fitness, step_count)
+                self.diversity(compute_diversity(self, agents), step_count)
+                self.agents_count(agents, step_count)
         except:
             logging.exception("")
 
@@ -32,6 +40,16 @@ class StepStatistics(Statistics):
             logger.debug("best genotype: %s", max(agents, key=lambda a: a.get_fitness()).get_best_genotype())
         except:
             logging.exception("")
+
+    def agents_count(self, agents, step_count):
+        count = 0  # sum(len(a.get_agents()) for a in agents)
+        for a in agents:
+            count += len(a.get_agents())
+        self.count_output.write(str(step_count - 1) + ';' + str(count) + '\n')
+
+    def diversity(self, param, step_count):
+        self.msd_diversity_output.write(str(step_count - 1) + ';' + str(param[0]) + '\n')
+        self.moi_diversity_output.write(str(step_count - 1) + ';' + str(param[1]) + '\n')
 
 
 class TimeStatistics(StepStatistics):

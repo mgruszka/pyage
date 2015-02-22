@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy
 
 
-def draw_plot(source_file_name, label, color, iterations, interval=10, devinterval=100):
+def draw_plot(source_file_name, label, color, iterations, ylabel, interval=10, devinterval=100):
     source_file_name = source_file_name                                   # data file name
     label = label
     color = color
@@ -34,9 +34,11 @@ def draw_plot(source_file_name, label, color, iterations, interval=10, devinterv
     plt.plot(x, means, color=color, label=label)                    # draw plot
     plt.errorbar(xdev, devmeans, yerr=stddev, color=color, fmt='.') # draw standard deviation
 
-    plt.axis([0, iterations, 0, 1700])
+    yheight = 1.3 * max(means)
+
+    plt.axis([0, iterations, 0, yheight])
     plt.xlabel('Ilosc_iteracji')
-    plt.ylabel('Dopasowanie')
+    plt.ylabel(ylabel)
     plt.legend()
 
 
@@ -44,8 +46,4 @@ def save_plot(plot_file_name):
     plot_file_name = plot_file_name
     # plt.show()
     plt.savefig(plot_file_name)
-
-draw_plot("fitness_pyage.conf.femas_single_pyage.txt", "Femas single", "green", 1000)
-draw_plot("fitness_pyage.conf.pso_basic_pyage.txt", "PSO basic", "blue", 1000)
-draw_plot("fitness_pyage.conf.femas_pso_pyage.txt", "Femas PSO", "red", 1000)
-save_plot("compared.png")
+    plt.close()

@@ -18,7 +18,7 @@ agents_count = 1
 logger.debug("PSO, %s agents", agents_count)
 agents = unnamed_agents(agents_count, AggregateAgent)
 
-stop_condition = lambda: StepLimitStopCondition(3001)
+stop_condition = lambda: StepLimitStopCondition(1001)
 
 aggregated_agents = lambda: pso_initializer(40, size=50, lowerbound=-10, upperbound=10)
 
@@ -35,5 +35,5 @@ address_provider = address.SequenceAddressProvider
 
 locator = lambda: TorusLocator(10, 10)
 
-stats = lambda: StepStatistics('fitness_%s_pyage.txt' % __name__)
+stats = lambda: StepStatistics('fitness_%s_pyage.txt' % __name__, 'count_%s_pyage.txt' % __name__, 'diversity_%s_pyage.txt' % __name__)
 
