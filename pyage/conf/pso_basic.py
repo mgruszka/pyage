@@ -18,7 +18,7 @@ agents_count = 1
 logger.debug("PSO, %s agents", agents_count)
 agents = unnamed_agents(agents_count, AggregateAgent)
 
-stop_condition = lambda: StepLimitStopCondition(1001)
+stop_condition = lambda: StepLimitStopCondition(3001)
 
 aggregated_agents = lambda: pso_initializer(40, size=50, lowerbound=-10, upperbound=10)
 
