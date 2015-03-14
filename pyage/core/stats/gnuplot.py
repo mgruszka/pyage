@@ -17,7 +17,8 @@ class StepStatistics(Statistics):
     def __del__(self):
         self.fitness_output.close()
         self.count_output.close()
-        self.diversity_output.close()
+        self.moi_diversity_output.close()
+        self.msd_diversity_output.close()
 
     def append(self, best_fitness, step_count):
         self.fitness_output.write(str(step_count - 1) + ';' + str(abs(best_fitness)) + '\n')

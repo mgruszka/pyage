@@ -34,12 +34,18 @@ def draw_plot(source_file_name, label, color, iterations, ylabel, interval=10, d
     plt.plot(x, means, color=color, label=label)                    # draw plot
     plt.errorbar(xdev, devmeans, yerr=stddev, color=color, fmt='.') # draw standard deviation
 
-    yheight = 1.3 * max(means)
 
+    if "moi" in source_file_name:
+        yheight = 10000
+    else:
+        yheight = 1.3 * max(means)
     plt.axis([0, iterations, 0, yheight])
     plt.xlabel('Ilosc_iteracji')
     plt.ylabel(ylabel)
-    plt.legend()
+    if "count" in source_file_name:
+        plt.legend(loc=3)
+    else:
+        plt.legend()
 
 
 def save_plot(plot_file_name):
