@@ -36,19 +36,19 @@ def move_files_to_folder(agents):
     #         shutil.move(files, destination)
 
 
-for agents in [1, 3, 6, 9, 12]:
-    os.environ['AGENTS'] = str(agents)
-    print("######Number of AGENTS: " + str(agents))
-    for i in range(1, 11):
-        subprocess.check_call(['time', 'python', '-m', 'pyage.core.bootstrap', 'pyage.conf.femas_single'])
-        subprocess.check_call(['time', 'python', '-m', 'pyage.core.bootstrap', 'pyage.conf.femas_pso'])
-        subprocess.check_call(['time', 'python', '-m', 'pyage.core.bootstrap', 'pyage.conf.pso_basic'])
-        subprocess.check_call(['time', 'python', '-m', 'pyage.core.bootstrap', 'pyage.conf.pso_neighborhood'])
-    compare_all("fitness", 3000, "Fitness", agents)
-    compare_all("count", 3000, "Liczebnosc_populacji", agents)
-    compare_all("msd_diversity", 3000, "Roznorodnosc MSD", agents)
-    compare_all("moi_diversity", 3000, "Roznorodnosc MOI", agents)
-    move_files_to_folder(agents)
+# for agents in [1, 3, 6, 9, 12]:
+#     os.environ['AGENTS'] = str(agents)
+#     print("######Number of AGENTS: " + str(agents))
+#     for i in range(1, 11):
+#         subprocess.check_call(['time', 'python', '-m', 'pyage.core.bootstrap', 'pyage.conf.femas_single'])
+#         subprocess.check_call(['time', 'python', '-m', 'pyage.core.bootstrap', 'pyage.conf.femas_pso'])
+#         subprocess.check_call(['time', 'python', '-m', 'pyage.core.bootstrap', 'pyage.conf.pso_basic'])
+#         subprocess.check_call(['time', 'python', '-m', 'pyage.core.bootstrap', 'pyage.conf.pso_neighborhood'])
+#     compare_all("fitness", 3000, "Fitness", agents)
+#     compare_all("count", 3000, "Liczebnosc_populacji", agents)
+#     compare_all("msd_diversity", 3000, "Roznorodnosc MSD", agents)
+compare_all("moi_diversity", 3000, "Roznorodnosc MOI", '9fixed')
+    # move_files_to_folder(agents)
 
 # draw_plots("femas_single_pyage.txt", "Femas single", "green", 1000)
 # draw_plots("pso_basic_pyage.txt", "PSO basic", "blue", 1000)

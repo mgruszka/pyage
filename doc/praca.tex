@@ -1,0 +1,104 @@
+\documentclass[11pt]{aghdpl}
+% \documentclass[en,11pt]{aghdpl}  % praca w języku angielskim
+\usepackage[polish]{babel}
+%\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+% dodatkowe pakiety
+\usepackage{enumerate}
+\usepackage{listings}
+\usepackage{graphicx} 
+\usepackage{float}
+\lstloadlanguages{TeX}
+
+\lstset{
+  literate={ą}{{\k{a}}}1
+           {ć}{{\'c}}1
+           {ę}{{\k{e}}}1
+           {ó}{{\'o}}1
+           {ń}{{\'n}}1
+           {ł}{{\l{}}}1
+           {ś}{{\'s}}1
+           {ź}{{\'z}}1
+           {ż}{{\.z}}1
+           {Ą}{{\k{A}}}1
+           {Ć}{{\'C}}1
+           {Ę}{{\k{E}}}1
+           {Ó}{{\'O}}1
+           {Ń}{{\'N}}1
+           {Ł}{{\L{}}}1
+           {Ś}{{\'S}}1
+           {Ź}{{\'Z}}1
+           {Ż}{{\.Z}}1
+}
+
+%---------------------------------------------------------------------------
+
+\author{Mateusz Gruszka}
+\shortauthor{M. Gruszka}
+
+\titlePL{Skuteczność algorytmu roju cząstek w wybranych problemach optymalizacji ciągłej}
+\titleEN{Effectiveness of particle swarm algorithm in selected continuous optimization problems}
+
+\shorttitlePL{Skuteczność algorytmu roju cząstek w wybranych problemach optymalizacji ciągłej} % skrócona wersja tytułu jeśli jest bardzo długi
+\shorttitleEN{Effectiveness of particle swarm algorithm in selected continuous optimization problems}
+
+\thesistype{Praca dyplomowa magisterska}
+%\thesistype{Master of Science Thesis}
+
+\supervisor{dr hab. inż. Marek Kisiel-Dorohinicki}
+%\supervisor{Marcin Szpyrka PhD, DSc}
+
+\degreeprogramme{Informatyka}
+%\degreeprogramme{Computer Science}
+
+\date{2015}
+
+\department{Katedra Informatyki}
+%\department{Department of Applied Computer Science}
+
+\faculty{Wydział Informatyki, Elektroniki i Telekomunikacji}
+%\faculty{Faculty of Electrical Engineering, Automatics, Computer Science and Biomedical Engineering}
+
+\acknowledgements{Serdecznie dziękuję \dots tu ciąg dalszych podziękowań które zostaną uzupełnione pod koniec :)}
+
+
+\setlength{\cftsecnumwidth}{10mm}
+
+%---------------------------------------------------------------------------
+\setcounter{secnumdepth}{4}
+
+
+\begin{document}
+
+\titlepages
+\setcounter{tocdepth}{3}
+\tableofcontents
+\listoffigures
+
+\makeatletter\@openrightfalse
+
+\include{tresc/wstep}
+\include{tresc/pso}
+\include{tresc/genetyczne}
+\include{tresc/psoTesty}
+\include{tresc/psovsgenetyczne}
+\include{tresc/podumowanie}
+
+
+\@openrighttrue\makeatother
+
+
+
+
+% itd.
+% \appendix
+% \include{dodatekA}
+% \include{dodatekB}
+% itd.
+
+
+\include{tresc/bibliografia}
+
+
+\end{document}

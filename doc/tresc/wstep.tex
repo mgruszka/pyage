@@ -1,0 +1,70 @@
+\chapter{Wprowadzenie}
+\label{cha:wstep}
+
+
+Tematem niniejszej pracy jest sprawdzenie skuteczności algorytmu roju cząstek w wybranych problemach optymalizacji ciągłej. Skuteczność rozwiązania została oceniona względem dostarczonej platformy wraz z istniejącym rozwiązaniem.
+
+
+\section{Cele pracy}
+\label{sec:celePracy}
+Celem pracy jest realizacja różnych wariantów implementacji algorytmu roju cząstek oraz badanie ich skuteczności w wybranych problemach optymalizacji ciągłej. W implementacji wykorzystane zostanie istniejące środowisko wspierające budowę rozproszonych modeli obliczeniowych w języku Python (pyAgE). Skuteczność algorytmu roju cząstek badana będzie eksperymentalnie dla różnych wariantów konfiguracji obliczeń oraz różnych problemów benchmarkowych.
+
+\section{Zakres pracy}
+W czasie realizacji pracy, została rozszerzona platforma pyAgE o możliwość dokonywania obliczeń za pomocą algorytmu roju cząstek. Zostały zaimplementowane zarówno elementy składowe algorytmu jak i przetestowane konfiguracje pozwalające na badanie skuteczności algorytmu. 
+
+Porównanie odbywało się pomiędzy dostarczonym wraz z platformą pyAgE algorytmem genetycznym EMAS, a różnymi konfiguracjami algorytmu roju cząstek. 
+
+Algorytm roju cząstek został przystosowany aby sprawdzić jego skuteczność w kilku wersjach:
+\begin{itemize}
+\item Podstawowa wersja, zawierająca możliwość sterowania:
+\begin{itemize}
+\item Prędkością
+\item Wagami składowych
+\end{itemize}
+\item Rozszerzoną o kroki algorytmu ewolucyjnego wykonywane razem z rojowymi
+\item Rozszerzoną o informację o sąsiadach, dostarczaną przez platformę pyAgE
+\item Rozszerzoną o wyspy obliczeniowe
+\end{itemize}
+
+
+\section{Zawartość pracy}
+Rozdział \ref{cha:pyage} zawieraja informację o platformie pyAgE i jej komponentach. Znajdują się tam również informacje o funkcjach benchamrkowych, ze szczególnym uwzględnieniem funkcji stosowanej do porównania w niniejszej pracy.
+
+Następną częscią pracy(rozdziały \ref{cha:pso} i \ref{cha:genetyczne}) jest przybliżenie mechanizmów działania zarówno algorytmów rojowych jak i ewolucyjnych, szczególnie tych, które zostały zastosowane w implementacji. W rodziale \ref{sec:psoModyfikacje} zostały też częste modyfikacje algorytmu roju cząstek.
+
+Rozdział \ref{cha:psoTesty} zawiera informację o zaimplementowanych rozwiązaniach oraz wyniki badań prowadzące do uzyskania najlepszych parametrów algorytmu roju cząstek.
+
+Pod koniec pracy znajdują się porównania algorytmów rojowego i ewolucyjnego oraz analiza skuteczności algorytmu rojowego pod kątem postawionego problemu.
+
+
+\chapter{Rozdział o pyagu i reszcie}
+\label{cha:pyage}
+
+\section{Platforma PyAGE}
+
+
+
+\section{Sposób porównywania wyników}
+\label{sec:porownywanieWynikow}
+
+
+
+
+
+\subsection{Funkcja Rastrigina}
+\label{sec:rastrigin}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
