@@ -4,11 +4,25 @@
 
 
 rozdział o różnych parametrach pso, porównanie wszystkich implementacji, eksperymenty z parametrami itp.
+wykres baza (v: const, global: 1, local: 1, old: 1, random: 0)
 
-\section{rowne wagi}
-\section{stala predkosc}
-\section{dodanie losowego wspolczynnika}
+parametry-final (global: 0.4, local: 0.2, old: 0.5, random: 0.(0)1))
 
+\section{Zmiana prędkości w czasie}
+porownanie: baza + (baza+v:-)
+
+
+\section{Dodanie losowego parametru}
+porownanie: baza + (baza+random:1) + (baza+random:1+v:-)
+
+
+\section{Dodanie wag dla parametrów}
+porownanie: baza + (baza+v:-) + parametry-final+v:const  + parametry-final+v:-
+
+
+\section{Podsumowanie}
+fitness dla:
+baza + (baza+v:-) + (baza+random:1+v:-) + parametry-final+v:-
 
 
 

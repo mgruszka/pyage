@@ -4,10 +4,25 @@
 
 Tematem niniejszej pracy jest sprawdzenie skuteczności algorytmu roju cząstek w wybranych problemach optymalizacji ciągłej. Skuteczność rozwiązania została oceniona względem dostarczonej platformy wraz z istniejącym rozwiązaniem.
 
+Algorytm roju cząstek jest heurystyką, która doskonali rozwiązanie danego problemu, poprzez iteracyjne modyfikowanie parametrów. Dokładny opis działania algorytmów rojowych został opisany w rozdziale \ref{pso}.
+
+Heurystyką nazywamy taką metodę znajdowania rozwiązań, która nie daje gwarancji znalezienia optymalnego rozwiązania. Metody takie używane są w przypadkach, gdy pełny algorytm jest nieznany lub jest zbyt kosztowny w wykonaniu.
+
+Wykorzystywane w niniejszej pracy w celu porównania skuteczności algorytmy ewolucyjne, również należą do heurystyk. Ich metoda działania została opisana w rozdziale \ref{genetyczne}.
+
+Optymalizacja ciągła jest takim rodzajem optymalizacji, w którym wszystkie zmienne funkcji celu są ciągłe, czyli należa do nieprzerwanego zbioru liczb.
+
 
 \section{Cele pracy}
 \label{sec:celePracy}
-Celem pracy jest realizacja różnych wariantów implementacji algorytmu roju cząstek oraz badanie ich skuteczności w wybranych problemach optymalizacji ciągłej. W implementacji wykorzystane zostanie istniejące środowisko wspierające budowę rozproszonych modeli obliczeniowych w języku Python (pyAgE). Skuteczność algorytmu roju cząstek badana będzie eksperymentalnie dla różnych wariantów konfiguracji obliczeń oraz różnych problemów benchmarkowych.
+Celem pracy jest realizacja implementacji algorytmu roju cząstek, oraz badanie ich skuteczności. W implementacji zostanie wykorzystane istniejące środowisko agentowe (pyAgE). Wspiera ono budowę rozproszonych modeli obliczeniowych oraz zostało napisane w języku Python.
+
+Dzięki zastosowaniu środowiska agentowego zostanie sprawdzona użyteczność algorytmów rojowych przy przyjęciu każdego osobnika jako osobnego agenta.
+
+Skuteczność zaimplementowanych rozwiązań będzie sprawdzana w wybranych problemach benchmarkowych. Warianty konfiguracji jak i dobrane parametry zostaną dobrane eksperymentalnie. 
+
+Finalnym celem jest porównanie otrzymanych rozwiązań z już istniejącym na platformie algorytmem ewolucyjnym - EMAS.
+
 
 \section{Zakres pracy}
 W czasie realizacji pracy, została rozszerzona platforma pyAgE o możliwość dokonywania obliczeń za pomocą algorytmu roju cząstek. Zostały zaimplementowane zarówno elementy składowe algorytmu jak i przetestowane konfiguracje pozwalające na badanie skuteczności algorytmu. 

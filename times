@@ -1,0 +1,256 @@
+#####BAZA#####
+36.04user 0.05system 0:36.30elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+688outputs (0major+4963minor)pagefaults 0swaps
+36.40user 0.06system 0:36.64elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4935minor)pagefaults 0swaps
+34.74user 0.05system 0:34.88elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+680outputs (0major+4934minor)pagefaults 0swaps
+35.31user 0.09system 0:35.51elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4936minor)pagefaults 0swaps
+35.25user 0.05system 0:35.33elapsed 99%CPU (0avgtext+0avgdata 11132maxresident)k
+0inputs+696outputs (0major+4935minor)pagefaults 0swaps
+34.91user 0.05system 0:35.01elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+704outputs (0major+4936minor)pagefaults 0swaps
+35.29user 0.03system 0:35.35elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+680outputs (0major+4936minor)pagefaults 0swaps
+35.14user 0.04system 0:35.29elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+688outputs (0major+4934minor)pagefaults 0swaps
+34.81user 0.07system 0:35.36elapsed 98%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4934minor)pagefaults 0swaps
+35.12user 0.04system 0:35.19elapsed 99%CPU (0avgtext+0avgdata 11132maxresident)k
+0inputs+680outputs (0major+4937minor)pagefaults 0swaps
+35.07user 0.06system 0:35.49elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4936minor)pagefaults 0swaps
+34.59user 0.06system 0:35.08elapsed 98%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+680outputs (0major+4935minor)pagefaults 0swaps
+34.89user 0.06system 0:34.98elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+720outputs (0major+4934minor)pagefaults 0swaps
+36.15user 0.04system 0:36.21elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4935minor)pagefaults 0swaps
+35.30user 0.06system 0:35.39elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+688outputs (0major+4936minor)pagefaults 0swaps
+35.54user 0.05system 0:35.62elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+680outputs (0major+4936minor)pagefaults 0swaps
+35.07user 0.04system 0:35.16elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4936minor)pagefaults 0swaps
+35.36user 0.05system 0:35.48elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+720outputs (0major+4936minor)pagefaults 0swaps
+35.26user 0.05system 0:35.35elapsed 99%CPU (0avgtext+0avgdata 11140maxresident)k
+0inputs+672outputs (0major+4939minor)pagefaults 0swaps
+34.90user 0.03system 0:34.97elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+704outputs (0major+4934minor)pagefaults 0swaps
+#####RANDOM#####
+33.60user 0.03system 0:33.65elapsed 99%CPU (0avgtext+0avgdata 11140maxresident)k
+0inputs+680outputs (0major+4940minor)pagefaults 0swaps
+34.32user 0.03system 0:34.37elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+680outputs (0major+4935minor)pagefaults 0swaps
+33.93user 0.06system 0:34.02elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4937minor)pagefaults 0swaps
+33.66user 0.03system 0:33.72elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+664outputs (0major+4935minor)pagefaults 0swaps
+34.61user 0.04system 0:34.68elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+672outputs (0major+4936minor)pagefaults 0swaps
+34.00user 0.06system 0:34.10elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+728outputs (0major+4936minor)pagefaults 0swaps
+34.66user 0.04system 0:34.73elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+672outputs (0major+4937minor)pagefaults 0swaps
+34.11user 0.07system 0:34.21elapsed 99%CPU (0avgtext+0avgdata 11132maxresident)k
+8inputs+688outputs (0major+4935minor)pagefaults 0swaps
+34.18user 0.08system 0:34.28elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+704outputs (0major+4935minor)pagefaults 0swaps
+34.31user 0.04system 0:34.38elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+680outputs (0major+4934minor)pagefaults 0swaps
+33.39user 0.06system 0:33.49elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+680outputs (0major+4935minor)pagefaults 0swaps
+33.75user 0.02system 0:33.80elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4935minor)pagefaults 0swaps
+34.60user 0.06system 0:34.69elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+680outputs (0major+4935minor)pagefaults 0swaps
+34.72user 0.03system 0:34.78elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4936minor)pagefaults 0swaps
+34.76user 0.05system 0:34.84elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+680outputs (0major+4936minor)pagefaults 0swaps
+34.92user 0.05system 0:35.02elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+704outputs (0major+4935minor)pagefaults 0swaps
+33.52user 0.05system 0:33.60elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+656outputs (0major+4936minor)pagefaults 0swaps
+35.37user 0.04system 0:35.44elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+712outputs (0major+4938minor)pagefaults 0swaps
+34.40user 0.03system 0:34.46elapsed 99%CPU (0avgtext+0avgdata 11132maxresident)k
+0inputs+672outputs (0major+4936minor)pagefaults 0swaps
+34.30user 0.04system 0:34.36elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+704outputs (0major+4934minor)pagefaults 0swaps
+/usr/lib/python2.7/dist-packages/numpy/ma/core.py:3847: UserWarning: Warning: converting a masked element to nan.
+  warnings.warn("Warning: converting a masked element to nan.")
+#####BAZA + V#####
+35.88user 0.06system 0:36.38elapsed 98%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+680outputs (0major+4939minor)pagefaults 0swaps
+35.06user 0.05system 0:35.16elapsed 99%CPU (0avgtext+0avgdata 11140maxresident)k
+0inputs+680outputs (0major+4939minor)pagefaults 0swaps
+35.95user 0.07system 0:36.09elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+704outputs (0major+4937minor)pagefaults 0swaps
+35.71user 0.08system 0:36.03elapsed 99%CPU (0avgtext+0avgdata 11132maxresident)k
+0inputs+688outputs (0major+4936minor)pagefaults 0swaps
+35.56user 0.05system 0:35.73elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+680outputs (0major+4936minor)pagefaults 0swaps
+35.74user 0.07system 0:35.84elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+704outputs (0major+4936minor)pagefaults 0swaps
+35.13user 0.06system 0:35.23elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+680outputs (0major+4935minor)pagefaults 0swaps
+34.74user 0.07system 0:34.84elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+688outputs (0major+4937minor)pagefaults 0swaps
+34.87user 0.03system 0:34.94elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+688outputs (0major+4935minor)pagefaults 0swaps
+34.77user 0.05system 0:34.84elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+704outputs (0major+4939minor)pagefaults 0swaps
+34.76user 0.08system 0:34.89elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+672outputs (0major+4936minor)pagefaults 0swaps
+46.18user 0.07system 0:46.45elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+664outputs (0major+4936minor)pagefaults 0swaps
+35.14user 0.03system 0:35.20elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4936minor)pagefaults 0swaps
+35.34user 0.04system 0:35.41elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+688outputs (0major+4937minor)pagefaults 0swaps
+34.82user 0.03system 0:34.89elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+688outputs (0major+4937minor)pagefaults 0swaps
+35.05user 0.04system 0:35.13elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+680outputs (0major+4936minor)pagefaults 0swaps
+35.25user 0.06system 0:35.34elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4936minor)pagefaults 0swaps
+34.55user 0.05system 0:34.63elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+688outputs (0major+4937minor)pagefaults 0swaps
+34.42user 0.04system 0:34.49elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+688outputs (0major+4935minor)pagefaults 0swaps
+35.07user 0.07system 0:35.18elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4937minor)pagefaults 0swaps
+/usr/lib/python2.7/dist-packages/numpy/ma/core.py:3847: UserWarning: Warning: converting a masked element to nan.
+  warnings.warn("Warning: converting a masked element to nan.")
+#####BAZA + V + RANDOM#####
+34.42user 0.03system 0:34.49elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+688outputs (0major+4936minor)pagefaults 0swaps
+33.85user 0.02system 0:33.90elapsed 99%CPU (0avgtext+0avgdata 11116maxresident)k
+0inputs+672outputs (0major+4932minor)pagefaults 0swaps
+34.71user 0.03system 0:34.77elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+704outputs (0major+4938minor)pagefaults 0swaps
+34.00user 0.02system 0:34.06elapsed 99%CPU (0avgtext+0avgdata 11112maxresident)k
+0inputs+680outputs (0major+4932minor)pagefaults 0swaps
+34.04user 0.05system 0:34.11elapsed 99%CPU (0avgtext+0avgdata 11108maxresident)k
+0inputs+672outputs (0major+4931minor)pagefaults 0swaps
+33.52user 0.05system 0:33.60elapsed 99%CPU (0avgtext+0avgdata 11108maxresident)k
+0inputs+704outputs (0major+4930minor)pagefaults 0swaps
+33.91user 0.03system 0:33.98elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+672outputs (0major+4935minor)pagefaults 0swaps
+33.61user 0.05system 0:33.70elapsed 99%CPU (0avgtext+0avgdata 11104maxresident)k
+0inputs+680outputs (0major+4929minor)pagefaults 0swaps
+33.72user 0.04system 0:33.79elapsed 99%CPU (0avgtext+0avgdata 11104maxresident)k
+0inputs+696outputs (0major+4929minor)pagefaults 0swaps
+35.56user 0.04system 0:35.62elapsed 99%CPU (0avgtext+0avgdata 11116maxresident)k
+0inputs+680outputs (0major+4932minor)pagefaults 0swaps
+33.99user 0.04system 0:34.06elapsed 99%CPU (0avgtext+0avgdata 11108maxresident)k
+0inputs+680outputs (0major+4931minor)pagefaults 0swaps
+34.54user 0.05system 0:34.62elapsed 99%CPU (0avgtext+0avgdata 11112maxresident)k
+0inputs+688outputs (0major+4932minor)pagefaults 0swaps
+34.14user 0.02system 0:34.18elapsed 99%CPU (0avgtext+0avgdata 11112maxresident)k
+0inputs+680outputs (0major+4930minor)pagefaults 0swaps
+34.90user 0.06system 0:34.98elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4936minor)pagefaults 0swaps
+34.50user 0.05system 0:34.59elapsed 99%CPU (0avgtext+0avgdata 11108maxresident)k
+0inputs+680outputs (0major+4932minor)pagefaults 0swaps
+34.05user 0.04system 0:34.13elapsed 99%CPU (0avgtext+0avgdata 11108maxresident)k
+0inputs+672outputs (0major+4931minor)pagefaults 0swaps
+35.60user 0.06system 0:35.70elapsed 99%CPU (0avgtext+0avgdata 11108maxresident)k
+0inputs+728outputs (0major+4930minor)pagefaults 0swaps
+33.84user 0.03system 0:33.89elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+672outputs (0major+4934minor)pagefaults 0swaps
+34.10user 0.05system 0:34.19elapsed 99%CPU (0avgtext+0avgdata 11108maxresident)k
+0inputs+680outputs (0major+4932minor)pagefaults 0swaps
+34.87user 0.05system 0:34.96elapsed 99%CPU (0avgtext+0avgdata 11132maxresident)k
+0inputs+704outputs (0major+4937minor)pagefaults 0swaps
+/usr/lib/python2.7/dist-packages/numpy/ma/core.py:3847: UserWarning: Warning: converting a masked element to nan.
+  warnings.warn("Warning: converting a masked element to nan.")
+#####BAZA + PARAM#####
+34.52user 0.05system 0:34.65elapsed 99%CPU (0avgtext+0avgdata 11136maxresident)k
+0inputs+688outputs (0major+4940minor)pagefaults 0swaps
+34.08user 0.04system 0:34.16elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+672outputs (0major+4936minor)pagefaults 0swaps
+34.93user 0.04system 0:35.01elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+704outputs (0major+4935minor)pagefaults 0swaps
+34.72user 0.04system 0:34.79elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+672outputs (0major+4935minor)pagefaults 0swaps
+34.67user 0.05system 0:34.76elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+688outputs (0major+4933minor)pagefaults 0swaps
+34.83user 0.04system 0:34.89elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+688outputs (0major+4934minor)pagefaults 0swaps
+34.30user 0.06system 0:34.38elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+688outputs (0major+4935minor)pagefaults 0swaps
+34.43user 0.06system 0:34.53elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+672outputs (0major+4937minor)pagefaults 0swaps
+34.85user 0.06system 0:34.94elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+704outputs (0major+4935minor)pagefaults 0swaps
+35.99user 0.08system 0:36.15elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+688outputs (0major+4934minor)pagefaults 0swaps
+35.30user 0.06system 0:35.46elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+672outputs (0major+4933minor)pagefaults 0swaps
+34.92user 0.05system 0:35.03elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+704outputs (0major+4933minor)pagefaults 0swaps
+34.15user 0.05system 0:34.23elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+672outputs (0major+4935minor)pagefaults 0swaps
+35.03user 0.04system 0:35.09elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+704outputs (0major+4937minor)pagefaults 0swaps
+34.37user 0.05system 0:34.45elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+680outputs (0major+4936minor)pagefaults 0swaps
+34.46user 0.05system 0:34.53elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+680outputs (0major+4935minor)pagefaults 0swaps
+34.47user 0.04system 0:34.54elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+704outputs (0major+4935minor)pagefaults 0swaps
+34.15user 0.05system 0:34.24elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+672outputs (0major+4934minor)pagefaults 0swaps
+34.14user 0.03system 0:34.19elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+712outputs (0major+4935minor)pagefaults 0swaps
+33.89user 0.03system 0:33.95elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+688outputs (0major+4937minor)pagefaults 0swaps
+/usr/lib/python2.7/dist-packages/numpy/ma/core.py:3847: UserWarning: Warning: converting a masked element to nan.
+  warnings.warn("Warning: converting a masked element to nan.")
+#####BAZA + PARAM + VELO#####
+33.52user 0.04system 0:33.57elapsed 99%CPU (0avgtext+0avgdata 11116maxresident)k
+0inputs+696outputs (0major+4961minor)pagefaults 0swaps
+33.70user 0.04system 0:33.77elapsed 99%CPU (0avgtext+0avgdata 11104maxresident)k
+0inputs+688outputs (0major+4929minor)pagefaults 0swaps
+34.08user 0.03system 0:34.13elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+704outputs (0major+4933minor)pagefaults 0swaps
+35.03user 0.04system 0:35.10elapsed 99%CPU (0avgtext+0avgdata 11104maxresident)k
+0inputs+672outputs (0major+4931minor)pagefaults 0swaps
+33.78user 0.05system 0:33.85elapsed 99%CPU (0avgtext+0avgdata 11116maxresident)k
+0inputs+688outputs (0major+4934minor)pagefaults 0swaps
+33.46user 0.05system 0:33.53elapsed 99%CPU (0avgtext+0avgdata 11116maxresident)k
+0inputs+728outputs (0major+4934minor)pagefaults 0swaps
+34.05user 0.04system 0:34.10elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+680outputs (0major+4935minor)pagefaults 0swaps
+33.61user 0.04system 0:33.69elapsed 99%CPU (0avgtext+0avgdata 11104maxresident)k
+0inputs+688outputs (0major+4929minor)pagefaults 0swaps
+34.59user 0.05system 0:34.69elapsed 99%CPU (0avgtext+0avgdata 11124maxresident)k
+0inputs+696outputs (0major+4934minor)pagefaults 0swaps
+33.56user 0.06system 0:33.64elapsed 99%CPU (0avgtext+0avgdata 11104maxresident)k
+0inputs+712outputs (0major+4929minor)pagefaults 0swaps
+34.03user 0.05system 0:34.11elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+680outputs (0major+4935minor)pagefaults 0swaps
+34.77user 0.03system 0:34.84elapsed 99%CPU (0avgtext+0avgdata 11116maxresident)k
+0inputs+656outputs (0major+4932minor)pagefaults 0swaps
+34.16user 0.05system 0:34.26elapsed 99%CPU (0avgtext+0avgdata 11108maxresident)k
+0inputs+688outputs (0major+4933minor)pagefaults 0swaps
+34.06user 0.05system 0:34.15elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4935minor)pagefaults 0swaps
+34.16user 0.03system 0:34.22elapsed 99%CPU (0avgtext+0avgdata 11116maxresident)k
+0inputs+680outputs (0major+4933minor)pagefaults 0swaps
+34.59user 0.06system 0:34.68elapsed 99%CPU (0avgtext+0avgdata 11120maxresident)k
+0inputs+680outputs (0major+4932minor)pagefaults 0swaps
+35.16user 0.10system 0:35.55elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4935minor)pagefaults 0swaps
+34.66user 0.07system 0:34.80elapsed 99%CPU (0avgtext+0avgdata 11104maxresident)k
+0inputs+680outputs (0major+4928minor)pagefaults 0swaps
+34.84user 0.08system 0:35.02elapsed 99%CPU (0avgtext+0avgdata 11120maxresident)k
+0inputs+680outputs (0major+4933minor)pagefaults 0swaps
+34.48user 0.07system 0:34.63elapsed 99%CPU (0avgtext+0avgdata 11128maxresident)k
+0inputs+696outputs (0major+4935minor)pagefaults 0swaps
+/usr/lib/python2.7/dist-packages/numpy/ma/core.py:3847: UserWarning: Warning: converting a masked element to nan.
+  warnings.warn("Warning: converting a masked element to nan.")
