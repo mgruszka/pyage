@@ -26,8 +26,8 @@ pso = PsoService
 
 global_velocity = lambda: 0.4
 local_velocity = lambda: 0.2
+old_velocity = lambda: 0.4
 random_velocity = lambda: 0.01
-
 
 evaluation = FloatRastriginEvaluation
 
