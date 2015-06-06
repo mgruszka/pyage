@@ -21,9 +21,21 @@
 \contentsline {chapter}{\numberline {4}Algorytmy ewolucyjne}{14}
 \contentsline {section}{\numberline {4.1}Przegl\IeC {\k a}d wiedzy}{14}
 \contentsline {section}{\numberline {4.2}Algorytm EMAS}{15}
-\contentsline {subsection}{\numberline {4.2.1}Agent}{15}
-\contentsline {subsection}{\numberline {4.2.2}Interakcje agent\IeC {\'o}w}{15}
-\contentsline {subsection}{\numberline {4.2.3}Ewolucja}{15}
-\contentsline {subsection}{\numberline {4.2.4}Wyspy obliczeniowe}{15}
-\contentsline {chapter}{\numberline {5}Algorytm roju cz\IeC {\k a}stek na platformie PyAGE}{16}
-\contentsline {chapter}{\numberline {6}Por\IeC {\'o}wnanie algorytm\IeC {\'o}w genetycznego i PSO}{17}
+\contentsline {subsection}{\numberline {4.2.1}Agent}{16}
+\contentsline {subsection}{\numberline {4.2.2}Interakcje agent\IeC {\'o}w}{16}
+\contentsline {subsection}{\numberline {4.2.3}Ewolucja}{17}
+\contentsline {subsection}{\numberline {4.2.4}Wyspy obliczeniowe}{18}
+\contentsline {chapter}{\numberline {5}Algorytm roju cz\IeC {\k a}stek na platformie PyAGE}{19}
+\contentsline {section}{\numberline {5.1}rowne wagi}{19}
+\contentsline {section}{\numberline {5.2}stala predkosc}{19}
+\contentsline {section}{\numberline {5.3}dodanie losowego wspolczynnika}{19}
+\contentsline {chapter}{\numberline {6}Por\IeC {\'o}wnanie algorytm\IeC {\'o}w genetycznego i PSO}{20}
+\contentsline {section}{\numberline {6.1}1 wyspa}{20}
+\contentsline {section}{\numberline {6.2}3 wyspy}{20}
+\contentsline {section}{\numberline {6.3}6 wysp}{20}
+\contentsline {section}{\numberline {6.4}9 wysp}{20}
+\contentsline {section}{\numberline {6.5}12 wysp}{20}
+\contentsline {section}{\numberline {6.6}por\IeC {\'o}wnanie czasu dzia\IeC {\l }ania}{20}
+\contentsline {chapter}{\numberline {7}Podsumowanie}{21}
+\contentsline {section}{\numberline {7.1}zalety pso wzgledem emas}{21}
+\contentsline {section}{\numberline {7.2}mozliwy rozwoj}{21}
