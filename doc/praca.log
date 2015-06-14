@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.14)  6 JUN 2015 20:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.14)  14 JUN 2015 18:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -460,7 +460,11 @@ LaTeX Warning: Unused global option(s):
 (./praca.aux (./tresc/wstep.aux) (./tresc/pyage.aux) (./tresc/pso.aux)
 (./tresc/genetyczne.aux) (./tresc/ewaluacja.aux) (./tresc/psoTesty.aux)
 (./tresc/psovsgenetyczne.aux) (./tresc/podsumowanie.aux)
-(./tresc/bibliografia.aux))
+(./tresc/bibliografia.aux
+
+LaTeX Warning: Label `rastrigin' multiply defined.
+
+))
 \openout1 = `praca.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
@@ -476,8 +480,7 @@ LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 67.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -614,11 +617,15 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 \openout3 = `praca.toc'.
 
 
-(./praca.lof)
+(./praca.lof
+Underfull \vbox (badness 1755) has occurred while \output is active []
+
+ [5])
 \tf@lof=\write4
 \openout4 = `praca.lof'.
 
- [5]
+
+[6]
 \openout2 = `tresc/wstep.aux'.
 
  (./tresc/wstep.tex
@@ -626,36 +633,34 @@ Rozdzia\l  1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
 
-LaTeX Warning: Reference `pso' on page 6 undefined on input line 7.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
 
 
-LaTeX Warning: Reference `genetyczne' on page 6 undefined on input line 11.
-
-[6
-
-
-]) [7]
+])
+[8]
 \openout2 = `tresc/pyage.aux'.
 
  (./tresc/pyage.tex
 Rozdzia\l  2.
-) [8
+[9
 
 
 
-]
+]) [10]
 \openout2 = `tresc/pso.aux'.
 
  (./tresc/pso.tex
 Rozdzia\l  3.
-[9
+[11
 
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 28.
- [10] <tresc/pics/psoRuch.png, id=49, 405.515pt x 297.11pt>
+ [12] <tresc/pics/psoRuch.png, id=55, 405.515pt x 297.11pt>
 File: tresc/pics/psoRuch.png Graphic file (type png)
 
 <use tresc/pics/psoRuch.png>
@@ -664,8 +669,8 @@ Package pdftex.def Info: tresc/pics/psoRuch.png used on input line 81.
 
 Underfull \vbox (badness 3895) has occurred while \output is active []
 
- [11 <./tresc/pics/psoRuch.png>]
-<tresc/pics/psoDiagram.png, id=53, 526.96875pt x 759.83875pt>
+ [13 <./tresc/pics/psoRuch.png>]
+<tresc/pics/psoDiagram.png, id=60, 526.96875pt x 759.83875pt>
 File: tresc/pics/psoDiagram.png Graphic file (type png)
 
 <use tresc/pics/psoDiagram.png>
@@ -674,64 +679,426 @@ Package pdftex.def Info: tresc/pics/psoDiagram.png used on input line 95.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./tresc/pics/psoDiagram.png>]) [13]
+ [14 <./tresc/pics/psoDiagram.png>]) [15]
 \openout2 = `tresc/genetyczne.aux'.
 
  (./tresc/genetyczne.tex
 Rozdzia\l  4.
-<tresc/pics/GAdiagram.png, id=61, 415.5525pt x 485.815pt>
+<tresc/pics/GAdiagram.png, id=67, 415.5525pt x 485.815pt>
 File: tresc/pics/GAdiagram.png Graphic file (type png)
 
 <use tresc/pics/GAdiagram.png>
 Package pdftex.def Info: tresc/pics/GAdiagram.png used on input line 22.
 (pdftex.def)             Requested size: 249.33342pt x 291.49124pt.
- [14
+ [16
 
 
 
-] [15 <./tresc/pics/GAdiagram.png>] [16]
-<tresc/pics/emasdiagram.png, id=71, 358.33875pt x 238.8925pt>
+] [17 <./tresc/pics/GAdiagram.png>] [18]
+<tresc/pics/emasdiagram.png, id=77, 358.33875pt x 238.8925pt>
 File: tresc/pics/emasdiagram.png Graphic file (type png)
 
 <use tresc/pics/emasdiagram.png>
-Package pdftex.def Info: tresc/pics/emasdiagram.png used on input line 77.
+Package pdftex.def Info: tresc/pics/emasdiagram.png used on input line 78.
 (pdftex.def)             Requested size: 215.0049pt x 143.3366pt.
 
 Underfull \vbox (badness 1412) has occurred while \output is active []
 
- [17 <./tresc/pics/emasdiagram.png>]) [18]
+ [19 <./tresc/pics/emasdiagram.png>]) [20]
 \openout2 = `tresc/ewaluacja.aux'.
 
  (./tresc/ewaluacja.tex
 Rozdzia\l  5.
-) [19
+[21
 
 
 
-]
+] <tresc/pics/rastrigin_function.png, id=88, 1510.443pt x 827.4915pt>
+File: tresc/pics/rastrigin_function.png Graphic file (type png)
+
+<use tresc/pics/rastrigin_function.png>
+Package pdftex.def Info: tresc/pics/rastrigin_function.png used on input line 4
+9.
+(pdftex.def)             Requested size: 453.1364pt x 248.24936pt.
+ [22 <./tresc/pics/rastrigin_function.png (PNG copy)>]) [23]
 \openout2 = `tresc/psoTesty.aux'.
 
  (./tresc/psoTesty.tex
 Rozdzia\l  6.
-) [20
+
+<tresc/pics/psotesty/compared_baza_velo_fitness.png, id=96, 578.16pt x 433.62pt
+>
+File: tresc/pics/psotesty/compared_baza_velo_fitness.png Graphic file (type png
+)
+ <use tresc/pics/psotesty/compared_baza_velo_fitness.png>
+Package pdftex.def Info: tresc/pics/psotesty/compared_baza_velo_fitness.png use
+d on input line 31.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+Underfull \vbox (badness 3471) has occurred while \output is active []
+
+ [24
 
 
 
 ]
+<tresc/pics/psotesty/compared_baza_velo_msd_diversity.png, id=101, 578.16pt x 4
+33.62pt>
+File: tresc/pics/psotesty/compared_baza_velo_msd_diversity.png Graphic file (ty
+pe png)
+ <use tresc/pics/psotesty/compared_baza_velo_msd_diversity.png>
+Package pdftex.def Info: tresc/pics/psotesty/compared_baza_velo_msd_diversity.p
+ng used on input line 39.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/psotesty/compared_baza_velo_moi_diversity.png, id=102, 578.16pt x 4
+33.62pt>
+File: tresc/pics/psotesty/compared_baza_velo_moi_diversity.png Graphic file (ty
+pe png)
+ <use tresc/pics/psotesty/compared_baza_velo_moi_diversity.png>
+Package pdftex.def Info: tresc/pics/psotesty/compared_baza_velo_moi_diversity.p
+ng used on input line 47.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <./tresc/pics/psotesty/compared_baza_velo_fitness.png> <./tresc/pics/psote
+sty/compared_baza_velo_msd_diversity.png>] [26 <./tresc/pics/psotesty/compared_
+baza_velo_moi_diversity.png>]
+<tresc/pics/psotesty/compared_baza_r_vr_fitness.png, id=113, 578.16pt x 433.62p
+t>
+File: tresc/pics/psotesty/compared_baza_r_vr_fitness.png Graphic file (type png
+)
+ <use tresc/pics/psotesty/compared_baza_r_vr_fitness.png>
+Package pdftex.def Info: tresc/pics/psotesty/compared_baza_r_vr_fitness.png use
+d on input line 66.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/psotesty/compared_baza_r_vr_msd_diversity.png, id=114, 578.16pt x 4
+33.62pt>
+File: tresc/pics/psotesty/compared_baza_r_vr_msd_diversity.png Graphic file (ty
+pe png)
+ <use tresc/pics/psotesty/compared_baza_r_vr_msd_diversity.png>
+Package pdftex.def Info: tresc/pics/psotesty/compared_baza_r_vr_msd_diversity.p
+ng used on input line 74.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/psotesty/compared_baza_r_vr_moi_diversity.png, id=115, 578.16pt x 4
+33.62pt>
+File: tresc/pics/psotesty/compared_baza_r_vr_moi_diversity.png Graphic file (ty
+pe png)
+ <use tresc/pics/psotesty/compared_baza_r_vr_moi_diversity.png>
+Package pdftex.def Info: tresc/pics/psotesty/compared_baza_r_vr_moi_diversity.p
+ng used on input line 82.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27
+
+ <./tresc/pics/psotesty/compared_baza_r_vr_fitness.png> <./tresc/pics/psotesty/
+compared_baza_r_vr_msd_diversity.png>] [28 <./tresc/pics/psotesty/compared_baza
+_r_vr_moi_diversity.png>]
+<tresc/pics/psotesty/compared_baza_v_param_paramV_fitness.png, id=125, 578.16pt
+ x 433.62pt>
+File: tresc/pics/psotesty/compared_baza_v_param_paramV_fitness.png Graphic file
+ (type png)
+
+<use tresc/pics/psotesty/compared_baza_v_param_paramV_fitness.png>
+Package pdftex.def Info: tresc/pics/psotesty/compared_baza_v_param_paramV_fitne
+ss.png used on input line 111.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/psotesty/compared_baza_v_param_paramV_msd_diversity.png, id=126, 57
+8.16pt x 433.62pt>
+File: tresc/pics/psotesty/compared_baza_v_param_paramV_msd_diversity.png Graphi
+c file (type png)
+
+<use tresc/pics/psotesty/compared_baza_v_param_paramV_msd_diversity.png>
+Package pdftex.def Info: tresc/pics/psotesty/compared_baza_v_param_paramV_msd_d
+iversity.png used on input line 119.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/psotesty/compared_baza_v_param_paramV_moi_diversity.png, id=127, 57
+8.16pt x 433.62pt>
+File: tresc/pics/psotesty/compared_baza_v_param_paramV_moi_diversity.png Graphi
+c file (type png)
+
+<use tresc/pics/psotesty/compared_baza_v_param_paramV_moi_diversity.png>
+Package pdftex.def Info: tresc/pics/psotesty/compared_baza_v_param_paramV_moi_d
+iversity.png used on input line 127.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29
+
+ <./tresc/pics/psotesty/compared_baza_v_param_paramV_fitness.png> <./tresc/pics
+/psotesty/compared_baza_v_param_paramV_msd_diversity.png>] [30 <./tresc/pics/ps
+otesty/compared_baza_v_param_paramV_moi_diversity.png>]
+File: tresc/pics/psotesty/compared_baza_v_param_paramV_fitness.png Graphic file
+ (type png)
+
+<use tresc/pics/psotesty/compared_baza_v_param_paramV_fitness.png>
+Package pdftex.def Info: tresc/pics/psotesty/compared_baza_v_param_paramV_fitne
+ss.png used on input line 149.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+ [31]
+File: tresc/pics/psotesty/compared_baza_v_param_paramV_msd_diversity.png Graphi
+c file (type png)
+
+<use tresc/pics/psotesty/compared_baza_v_param_paramV_msd_diversity.png>
+Package pdftex.def Info: tresc/pics/psotesty/compared_baza_v_param_paramV_msd_d
+iversity.png used on input line 159.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+File: tresc/pics/psotesty/compared_baza_v_param_paramV_moi_diversity.png Graphi
+c file (type png)
+
+<use tresc/pics/psotesty/compared_baza_v_param_paramV_moi_diversity.png>
+Package pdftex.def Info: tresc/pics/psotesty/compared_baza_v_param_paramV_moi_d
+iversity.png used on input line 167.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/psotesty/czasy_psotesty.png, id=141, 784.9325pt x 314.17375pt>
+File: tresc/pics/psotesty/czasy_psotesty.png Graphic file (type png)
+
+<use tresc/pics/psotesty/czasy_psotesty.png>
+Package pdftex.def Info: tresc/pics/psotesty/czasy_psotesty.png used on input l
+ine 176.
+(pdftex.def)             Requested size: 470.96312pt x 188.50569pt.
+
+Overfull \hbox (15.71901pt too wide) in paragraph at lines 176--177
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32
+
+])
+[33 <./tresc/pics/psotesty/czasy_psotesty.png>]
 \openout2 = `tresc/psovsgenetyczne.aux'.
 
  (./tresc/psovsgenetyczne.tex
 Rozdzia\l  7.
-) [21
+
+<tresc/pics/comparedpsogene/compared_fitness1.png, id=148, 578.16pt x 433.62pt>
+File: tresc/pics/comparedpsogene/compared_fitness1.png Graphic file (type png)
+<use tresc/pics/comparedpsogene/compared_fitness1.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_fitness1.png used 
+on input line 13.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/comparedpsogene/compared_msd_diversity1.png, id=149, 578.16pt x 433
+.62pt>
+File: tresc/pics/comparedpsogene/compared_msd_diversity1.png Graphic file (type
+ png)
+ <use tresc/pics/comparedpsogene/compared_msd_diversity1.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_msd_diversity1.png
+ used on input line 21.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34
 
 
 
-]
+ <./tresc/pics/comparedpsogene/compared_fitness1.png>]
+<tresc/pics/comparedpsogene/compared_moi_diversity1.png, id=154, 578.16pt x 433
+.62pt>
+File: tresc/pics/comparedpsogene/compared_moi_diversity1.png Graphic file (type
+ png)
+ <use tresc/pics/comparedpsogene/compared_moi_diversity1.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_moi_diversity1.png
+ used on input line 29.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/comparedpsogene/compared_count1.png, id=155, 578.16pt x 433.62pt>
+File: tresc/pics/comparedpsogene/compared_count1.png Graphic file (type png)
+
+<use tresc/pics/comparedpsogene/compared_count1.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_count1.png used on
+ input line 37.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35 <./tresc/pics/comparedpsogene/compared_msd_diversity1.png> <./tresc/pics/c
+omparedpsogene/compared_moi_diversity1.png>]
+<tresc/pics/comparedpsogene/compared_fitness3.png, id=161, 578.16pt x 433.62pt>
+File: tresc/pics/comparedpsogene/compared_fitness3.png Graphic file (type png)
+<use tresc/pics/comparedpsogene/compared_fitness3.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_fitness3.png used 
+on input line 48.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/comparedpsogene/compared_msd_diversity3.png, id=162, 578.16pt x 433
+.62pt>
+File: tresc/pics/comparedpsogene/compared_msd_diversity3.png Graphic file (type
+ png)
+ <use tresc/pics/comparedpsogene/compared_msd_diversity3.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_msd_diversity3.png
+ used on input line 56.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+ [36 <./tresc/pics/comparedpsogene/compared_count1.png> <./tresc/pics/comparedp
+sogene/compared_fitness3.png>]
+<tresc/pics/comparedpsogene/compared_moi_diversity3.png, id=168, 578.16pt x 433
+.62pt>
+File: tresc/pics/comparedpsogene/compared_moi_diversity3.png Graphic file (type
+ png)
+ <use tresc/pics/comparedpsogene/compared_moi_diversity3.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_moi_diversity3.png
+ used on input line 64.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/comparedpsogene/compared_count3.png, id=169, 578.16pt x 433.62pt>
+File: tresc/pics/comparedpsogene/compared_count3.png Graphic file (type png)
+
+<use tresc/pics/comparedpsogene/compared_count3.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_count3.png used on
+ input line 72.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37 <./tresc/pics/comparedpsogene/compared_msd_diversity3.png> <./tresc/pics/c
+omparedpsogene/compared_moi_diversity3.png>]
+<tresc/pics/comparedpsogene/compared_fitness6.png, id=176, 578.16pt x 433.62pt>
+File: tresc/pics/comparedpsogene/compared_fitness6.png Graphic file (type png)
+<use tresc/pics/comparedpsogene/compared_fitness6.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_fitness6.png used 
+on input line 83.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/comparedpsogene/compared_msd_diversity6.png, id=177, 578.16pt x 433
+.62pt>
+File: tresc/pics/comparedpsogene/compared_msd_diversity6.png Graphic file (type
+ png)
+ <use tresc/pics/comparedpsogene/compared_msd_diversity6.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_msd_diversity6.png
+ used on input line 91.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+ [38 <./tresc/pics/comparedpsogene/compared_count3.png> <./tresc/pics/comparedp
+sogene/compared_fitness6.png>]
+<tresc/pics/comparedpsogene/compared_moi_diversity6.png, id=183, 578.16pt x 433
+.62pt>
+File: tresc/pics/comparedpsogene/compared_moi_diversity6.png Graphic file (type
+ png)
+ <use tresc/pics/comparedpsogene/compared_moi_diversity6.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_moi_diversity6.png
+ used on input line 99.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/comparedpsogene/compared_count6.png, id=184, 578.16pt x 433.62pt>
+File: tresc/pics/comparedpsogene/compared_count6.png Graphic file (type png)
+
+<use tresc/pics/comparedpsogene/compared_count6.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_count6.png used on
+ input line 107.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39 <./tresc/pics/comparedpsogene/compared_msd_diversity6.png> <./tresc/pics/c
+omparedpsogene/compared_moi_diversity6.png>]
+<tresc/pics/comparedpsogene/compared_fitness9.png, id=190, 578.16pt x 433.62pt>
+File: tresc/pics/comparedpsogene/compared_fitness9.png Graphic file (type png)
+<use tresc/pics/comparedpsogene/compared_fitness9.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_fitness9.png used 
+on input line 118.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/comparedpsogene/compared_msd_diversity9.png, id=191, 578.16pt x 433
+.62pt>
+File: tresc/pics/comparedpsogene/compared_msd_diversity9.png Graphic file (type
+ png)
+ <use tresc/pics/comparedpsogene/compared_msd_diversity9.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_msd_diversity9.png
+ used on input line 126.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+ [40 <./tresc/pics/comparedpsogene/compared_count6.png> <./tresc/pics/comparedp
+sogene/compared_fitness9.png>]
+<tresc/pics/comparedpsogene/compared_moi_diversity9.png, id=197, 578.16pt x 433
+.62pt>
+File: tresc/pics/comparedpsogene/compared_moi_diversity9.png Graphic file (type
+ png)
+ <use tresc/pics/comparedpsogene/compared_moi_diversity9.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_moi_diversity9.png
+ used on input line 134.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/comparedpsogene/compared_count9.png, id=198, 578.16pt x 433.62pt>
+File: tresc/pics/comparedpsogene/compared_count9.png Graphic file (type png)
+
+<use tresc/pics/comparedpsogene/compared_count9.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_count9.png used on
+ input line 142.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41 <./tresc/pics/comparedpsogene/compared_msd_diversity9.png> <./tresc/pics/c
+omparedpsogene/compared_moi_diversity9.png>]
+<tresc/pics/comparedpsogene/compared_fitness12.png, id=204, 578.16pt x 433.62pt
+>
+File: tresc/pics/comparedpsogene/compared_fitness12.png Graphic file (type png)
+
+ <use tresc/pics/comparedpsogene/compared_fitness12.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_fitness12.png used
+ on input line 153.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/comparedpsogene/compared_msd_diversity12.png, id=205, 578.16pt x 43
+3.62pt>
+File: tresc/pics/comparedpsogene/compared_msd_diversity12.png Graphic file (typ
+e png)
+ <use tresc/pics/comparedpsogene/compared_msd_diversity12.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_msd_diversity12.pn
+g used on input line 161.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+ [42 <./tresc/pics/comparedpsogene/compared_count9.png> <./tresc/pics/comparedp
+sogene/compared_fitness12.png>]
+<tresc/pics/comparedpsogene/compared_moi_diversity12.png, id=211, 578.16pt x 43
+3.62pt>
+File: tresc/pics/comparedpsogene/compared_moi_diversity12.png Graphic file (typ
+e png)
+ <use tresc/pics/comparedpsogene/compared_moi_diversity12.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_moi_diversity12.pn
+g used on input line 169.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<tresc/pics/comparedpsogene/compared_count12.png, id=212, 578.16pt x 433.62pt>
+File: tresc/pics/comparedpsogene/compared_count12.png Graphic file (type png)
+
+<use tresc/pics/comparedpsogene/compared_count12.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_count12.png used o
+n input line 177.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43 <./tresc/pics/comparedpsogene/compared_msd_diversity12.png> <./tresc/pics/
+comparedpsogene/compared_moi_diversity12.png>]
+<tresc/pics/comparedpsogene/compared_time.png, id=219, 815.045pt x 376.40625pt>
+File: tresc/pics/comparedpsogene/compared_time.png Graphic file (type png)
+<use tresc/pics/comparedpsogene/compared_time.png>
+Package pdftex.def Info: tresc/pics/comparedpsogene/compared_time.png used on i
+nput line 189.
+(pdftex.def)             Requested size: 489.03076pt x 225.84547pt.
+
+Overfull \hbox (33.78665pt too wide) in paragraph at lines 189--190
+ [] 
+ []
+
+) [44 <./tresc/pics/comparedpsogene/compared_count12.png> <./tresc/pics/compare
+dpsogene/compared_time.png>]
 \openout2 = `tresc/podsumowanie.aux'.
 
  (./tresc/podsumowanie.tex
 Rozdzia\l  8.
-) [22
+) [45
 
 
 
@@ -740,49 +1107,50 @@ Rozdzia\l  8.
 
  (./tresc/bibliografia.tex
 No file praca.bbl.
-[23
+[46
 
 
 
-]
+] [47]
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 92.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)) [24]
-(./praca.aux (./tresc/wstep.aux) (./tresc/pyage.aux) (./tresc/pso.aux)
+) [48])
+[49] (./praca.aux (./tresc/wstep.aux) (./tresc/pyage.aux) (./tresc/pso.aux)
 (./tresc/genetyczne.aux) (./tresc/ewaluacja.aux) (./tresc/psoTesty.aux)
 (./tresc/psovsgenetyczne.aux) (./tresc/podsumowanie.aux)
 (./tresc/bibliografia.aux))
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5533 strings out of 494952
- 75214 string characters out of 6179606
- 159636 words of memory out of 5000000
- 8549 multiletter control sequences out of 15000+600000
+ 5745 strings out of 494952
+ 84659 string characters out of 6179606
+ 160636 words of memory out of 5000000
+ 8727 multiletter control sequences out of 15000+600000
  70538 words of font info for 68 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
- 38i,12n,45p,936b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,45p,936b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
-s/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on praca.pdf (24 pages, 343192 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on praca.pdf (49 pages, 1811410 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
+ 296 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 

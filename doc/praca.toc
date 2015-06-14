@@ -1,43 +1,47 @@
 \select@language {polish}
-\contentsline {chapter}{\numberline {1}Wprowadzenie}{6}
-\contentsline {section}{\numberline {1.1}Cele pracy}{6}
-\contentsline {section}{\numberline {1.2}Zakres pracy}{6}
-\contentsline {section}{\numberline {1.3}Zawarto\IeC {\'s}\IeC {\'c} pracy}{7}
-\contentsline {chapter}{\numberline {2}Rozdzia\IeC {\l } o pyagu i reszcie}{8}
-\contentsline {section}{\numberline {2.1}Platforma PyAGE}{8}
-\contentsline {chapter}{\numberline {3}Algorytmy rojowe}{9}
-\contentsline {section}{\numberline {3.1}Przegl\IeC {\k a}d wiedzy}{9}
-\contentsline {section}{\numberline {3.2}Algorytm roju cz\IeC {\k a}stek}{10}
-\contentsline {subsection}{\numberline {3.2.1}Opis algorytmu}{10}
-\contentsline {subsection}{\numberline {3.2.2}Przemieszczenie}{11}
-\contentsline {subsection}{\numberline {3.2.3}Zasada dzia\IeC {\l }ania algorytmu}{12}
-\contentsline {section}{\numberline {3.3}Modyfikacje algorytmu roju cz\IeC {\k a}stek}{13}
-\contentsline {subsection}{\numberline {3.3.1}Rozszerzenie wiedzy cz\IeC {\k a}stek}{13}
-\contentsline {subsection}{\numberline {3.3.2}Dodanie losowej sk\IeC {\l }adowej}{13}
-\contentsline {subsection}{\numberline {3.3.3}Nadawanie wag parametrom}{13}
-\contentsline {subsection}{\numberline {3.3.4}Zmiana pr\IeC {\k e}dko\IeC {\'s}ci ruchu}{13}
-\contentsline {chapter}{\numberline {4}Algorytmy ewolucyjne}{14}
-\contentsline {section}{\numberline {4.1}Przegl\IeC {\k a}d wiedzy}{14}
-\contentsline {section}{\numberline {4.2}Algorytm EMAS}{15}
-\contentsline {subsection}{\numberline {4.2.1}Agent}{16}
-\contentsline {subsection}{\numberline {4.2.2}Interakcje agent\IeC {\'o}w}{16}
-\contentsline {subsection}{\numberline {4.2.3}S\IeC {\k a}siedztwo agent\IeC {\'o}w}{17}
-\contentsline {subsection}{\numberline {4.2.4}Wyspy obliczeniowe}{17}
-\contentsline {chapter}{\numberline {5}Ewaluacja}{19}
-\contentsline {section}{\numberline {5.1}Spos\IeC {\'o}b por\IeC {\'o}wnywania wynik\IeC {\'o}w}{19}
-\contentsline {section}{\numberline {5.2}Funkcja Rastrigina}{19}
-\contentsline {chapter}{\numberline {6}Algorytm roju cz\IeC {\k a}stek na platformie PyAGE}{20}
-\contentsline {section}{\numberline {6.1}Zmiana pr\IeC {\k e}dko\IeC {\'s}ci w czasie}{20}
-\contentsline {section}{\numberline {6.2}Dodanie losowego parametru}{20}
-\contentsline {section}{\numberline {6.3}Dodanie wag dla parametr\IeC {\'o}w}{20}
-\contentsline {section}{\numberline {6.4}Podsumowanie}{20}
-\contentsline {chapter}{\numberline {7}Por\IeC {\'o}wnanie algorytm\IeC {\'o}w genetycznego i PSO}{21}
-\contentsline {section}{\numberline {7.1}1 wyspa}{21}
-\contentsline {section}{\numberline {7.2}3 wyspy}{21}
-\contentsline {section}{\numberline {7.3}6 wysp}{21}
-\contentsline {section}{\numberline {7.4}9 wysp}{21}
-\contentsline {section}{\numberline {7.5}12 wysp}{21}
-\contentsline {section}{\numberline {7.6}por\IeC {\'o}wnanie czasu dzia\IeC {\l }ania}{21}
-\contentsline {chapter}{\numberline {8}Podsumowanie}{22}
-\contentsline {section}{\numberline {8.1}zalety pso wzgledem emas}{22}
-\contentsline {section}{\numberline {8.2}mozliwy rozwoj}{22}
+\contentsline {chapter}{\numberline {1}Wprowadzenie}{7}
+\contentsline {section}{\numberline {1.1}Cele pracy}{7}
+\contentsline {section}{\numberline {1.2}Zakres pracy}{8}
+\contentsline {section}{\numberline {1.3}Zawarto\IeC {\'s}\IeC {\'c} pracy}{8}
+\contentsline {chapter}{\numberline {2}Wieloagentowa platforma uruchomieniowa}{9}
+\contentsline {section}{\numberline {2.1}Platforma pyAgE}{9}
+\contentsline {section}{\numberline {2.2}Rozwini\IeC {\k e}cie platformy pyAgE}{10}
+\contentsline {chapter}{\numberline {3}Algorytmy rojowe}{11}
+\contentsline {section}{\numberline {3.1}Przegl\IeC {\k a}d wiedzy}{11}
+\contentsline {section}{\numberline {3.2}Algorytm roju cz\IeC {\k a}stek}{12}
+\contentsline {subsection}{\numberline {3.2.1}Opis algorytmu}{12}
+\contentsline {subsection}{\numberline {3.2.2}Przemieszczenie}{13}
+\contentsline {subsection}{\numberline {3.2.3}Zasada dzia\IeC {\l }ania algorytmu}{14}
+\contentsline {section}{\numberline {3.3}Modyfikacje algorytmu roju cz\IeC {\k a}stek}{15}
+\contentsline {subsection}{\numberline {3.3.1}Rozszerzenie wiedzy cz\IeC {\k a}stek}{15}
+\contentsline {subsection}{\numberline {3.3.2}Dodanie losowej sk\IeC {\l }adowej}{15}
+\contentsline {subsection}{\numberline {3.3.3}Nadawanie wag parametrom}{15}
+\contentsline {subsection}{\numberline {3.3.4}Zmiana pr\IeC {\k e}dko\IeC {\'s}ci ruchu}{15}
+\contentsline {chapter}{\numberline {4}Algorytmy ewolucyjne}{16}
+\contentsline {section}{\numberline {4.1}Przegl\IeC {\k a}d wiedzy}{16}
+\contentsline {section}{\numberline {4.2}Algorytm EMAS}{17}
+\contentsline {subsection}{\numberline {4.2.1}Agent}{18}
+\contentsline {subsection}{\numberline {4.2.2}Interakcje agent\IeC {\'o}w}{18}
+\contentsline {subsection}{\numberline {4.2.3}S\IeC {\k a}siedztwo agent\IeC {\'o}w}{19}
+\contentsline {subsection}{\numberline {4.2.4}Wyspy obliczeniowe}{19}
+\contentsline {chapter}{\numberline {5}Ewaluacja}{21}
+\contentsline {section}{\numberline {5.1}Spos\IeC {\'o}b por\IeC {\'o}wnywania wynik\IeC {\'o}w}{21}
+\contentsline {section}{\numberline {5.2}Funkcja Rastrigina}{22}
+\contentsline {section}{\numberline {5.3}Badanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci populacji}{23}
+\contentsline {subsection}{\numberline {5.3.1}R\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}\IeC {\'c} MSD}{23}
+\contentsline {subsection}{\numberline {5.3.2}R\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}\IeC {\'c} MOI}{23}
+\contentsline {chapter}{\numberline {6}Algorytm roju cz\IeC {\k a}stek na platformie PyAGE}{24}
+\contentsline {section}{\numberline {6.1}Zmiana pr\IeC {\k e}dko\IeC {\'s}ci w czasie}{24}
+\contentsline {section}{\numberline {6.2}Dodanie losowego parametru}{26}
+\contentsline {section}{\numberline {6.3}Dodanie wag dla parametr\IeC {\'o}w}{28}
+\contentsline {section}{\numberline {6.4}Podsumowanie}{30}
+\contentsline {chapter}{\numberline {7}Por\IeC {\'o}wnanie algorytm\IeC {\'o}w genetycznego i PSO}{34}
+\contentsline {section}{\numberline {7.1}Jedna wyspa obliczeniowa}{34}
+\contentsline {section}{\numberline {7.2}Trzy wyspy obliczeniowe}{36}
+\contentsline {section}{\numberline {7.3}Sze\IeC {\'s}\IeC {\'c} wysp obliczeniowych}{38}
+\contentsline {section}{\numberline {7.4}Dziewi\IeC {\k e}\IeC {\'c} wysp obliczeniowych}{40}
+\contentsline {section}{\numberline {7.5}Dwana\IeC {\'s}cie wysp obliczeniowych}{42}
+\contentsline {section}{\numberline {7.6}Por\IeC {\'o}wnanie czasu dzia\IeC {\l }ania - poprawic z nowymi danymi}{44}
+\contentsline {chapter}{\numberline {8}Podsumowanie}{45}
+\contentsline {section}{\numberline {8.1}zalety pso wzgledem emas}{45}
+\contentsline {section}{\numberline {8.2}mozliwy rozwoj}{45}
