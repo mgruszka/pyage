@@ -1,16 +1,18 @@
 \chapter{Algorytm roju cząstek na platformie PyAGE}
 \label{cha:psoTesty}
 
-W celu znalezienia najlepszej konfiguracji algorytmu roju cząstek został wykonany szereg modyfikacji implementacji. Został wykonany podstawowy algorytm, bazujący na trzech parametrach:
+W celu znalezienia najlepszej konfiguracji algorytmu roju cząstek został wykonany szereg jego modyfikacji. Został wykonany podstawowy algorytm, bazujący na trzech parametrach:
 \begin{itemize}
 \item najlepsza pozycja w stadzie (ang. global best) 
 \item najlepsza pozycja danej cząsteczki (ang. local best)
 \item poprzedni wektor przemieszczenia
 \end{itemize}
 
-Następnie algorytm został rozszerzony o możliwość zmiany prędkości cząstek w czasie obliczeń. Kolejnymi krokami było dodanie losowego wektora o który przemieszcza się dana cząsteczka oraz nadanie wag konkretnym parametrom. 
+Następnie algorytm został rozszerzony o możliwość zmiany prędkości cząstek w czasie obliczeń. Kolejnymi krokami było dodanie losowego wektora, o który przemieszcza się dana cząsteczka oraz nadanie wag konkretnym parametrom. 
 
-Algorytm w wersji podstawowej, który jest podstawą do porównania wszystkich modyfikacji nie posiadał przemieszczenia o losowy wektor, w czaqsie trwania obliczeń prędkość cząstek nie zmieniała się, a wszystkie wykorzystywane parametry miały taką samą wagę równą jeden.
+Algorytm w wersji podstawowej, który jest podstawą do porównania wszystkich modyfikacji nie posiadał przemieszczenia o losowy wektor, w czasie trwania obliczeń prędkość cząstek nie zmieniała się, a wszystkie wykorzystywane parametry miały taką samą wagę równą jeden.
+
+W czasie działania algorytmu liczebność populacji jest stała, żadne akcje wykonywane przez agentów nie prowadzą do ich śmierci ani utworzenia nowego agenta.
 
 
 \section{Zmiana prędkości w czasie}
@@ -23,7 +25,7 @@ Pierwszą wykonaną modyfikacją była zmiana prędkości cząstek w czasie. Wra
 \omega = 1 - \frac{T}{T_{max}}
 \end{equation}
 
-Wykresy \ref{fig:compared_baza_velo_fitness}, \ref{fig:compared_baza_velo_msd_diversity} i \ref{fig:compared_baza_velo_moi_diversity} obrazują różnice w wartości funkcji dopasowania oraz różnorodności opracowanych przez cząsteczki rozwiązań pomiędzy podstawową wersją algorytmu, a tą spowalniającą cząsteczki.
+Wykresy \ref{fig:compared_baza_velo_fitness}, \ref{fig:compared_baza_velo_msd_diversity} i \ref{fig:compared_baza_velo_moi_diversity} obrazują różnice w wartościach funkcji dopasowania oraz różnorodności opracowanych przez cząsteczki rozwiązań pomiędzy podstawową wersją algorytmu, a tą spowalniającą cząsteczki.
 
 
 \begin{figure}[H]
@@ -50,14 +52,14 @@ Wykresy \ref{fig:compared_baza_velo_fitness}, \ref{fig:compared_baza_velo_msd_di
 \end{center}
 \end{figure}
 
-
+Na przedstawionych wykresach można zauważyć, że dodanie zmiany prędkości w czasie powoduje bisko dwukrotną poprawę jakości rozwiązania. Jednocześnie zmiana ta pozwoliła algorytmowi już w pierwszych iteracjach na znaczące zbliżenie się do poprawnego rozwiązania. Poprzez zastosowanie spowalniania, cząsteczki wykazywały się większą różnorodnością niż bez jego użycia.
 
 
 \section{Dodanie losowego parametru}
 
-Innym potencjalnym sposobem polepszenia jakości algorytmu było dodanie losowego składowego wektora o ktory przemieściłaby się cząsteczka w przestrzeni rozwiązań. Wykresy \ref{fig:compared_baza_r_vr_fitness}, \ref{fig:compared_baza_r_vr_msd_diversity} i \ref{fig:compared_baza_r_vr_moi_diversity} obrazują jakość takiej modyfikacji. 
+Innym potencjalnym sposobem polepszenia jakości algorytmu było dodanie losowego składowego wektora, o który przemieściłaby się cząsteczka w przestrzeni rozwiązań. Wykresy \ref{fig:compared_baza_r_vr_fitness}, \ref{fig:compared_baza_r_vr_msd_diversity} i \ref{fig:compared_baza_r_vr_moi_diversity} obrazują jakość takiej modyfikacji. 
 
-Jak widać na wykresie \ref{fig:compared_baza_r_vr_fitness}, dodanie przesunięcia o losowy wektor bez zastosowania spowalniania cząsteczek spowodowało znaczące pogarszanie się jakości rozwiązania wraz z postępem iteracji.
+Jak widać na wykresie \ref{fig:compared_baza_r_vr_fitness}, dodanie przesunięcia o losowy wektor bez zastosowania spowalniania cząsteczek spowodowało znaczące pogarszanie się jakości rozwiązania wraz z postępem iteracji. Jednocześnie można zauważyć znaczący wzrost różnorodności, co spowodowane jest wymuszeniem losowego ruchu cząsteczek od siebie z każdym kolejnym krokiem.
 
 \clearpage
 
@@ -91,16 +93,16 @@ Jak widać na wykresie \ref{fig:compared_baza_r_vr_fitness}, dodanie przesunięc
 
 Ostatnią z modyfikacji było nadanie wszystkim parametrom wag w taki sposób, aby odzwierciedlić faktyczną  ważność danego parametru względem przesuwania się cząsteczki po przestrzeni rozwiązań.
 
-Rysunki \ref{fig:compared_baza_v_param_paramV_fitness}, \ref{fig:compared_baza_v_param_paramV_msd_diversity} i \ref{fig:compared_baza_v_param_paramV_moi_diversity} obrazują dopasowanie i różnorodność cząsteczek w przypadku gdy dla wszystkich parametrów zostały nadane wagi oraz różnicę w zastosowaniu jednocześnie spowolnienia opisanego w rozdziale \ref{sec:psotestyspowolnienie}. 
+Rysunki \ref{fig:compared_baza_v_param_paramV_fitness}, \ref{fig:compared_baza_v_param_paramV_msd_diversity} i \ref{fig:compared_baza_v_param_paramV_moi_diversity} obrazują dopasowanie i różnorodność cząsteczek w przypadku, gdy dla wszystkich parametrów zostały nadane wagi oraz różnicę w zastosowaniu jednoczesnego spowolnienia opisanego w rozdziale \ref{sec:psotestyspowolnienie}. 
 
-Podczas pracy nad algorytmem zostały badane eksperymentalnie różne wartości wag dla parametrów, w niniejszej pracy zostały przedstawione te, które dawały najlepsze wyniki.
+Podczas pracy nad algorytmem zostały zbadane eksperymentalnie różne wartości wag dla parametrów - w niniejszej pracy zostały przedstawione te, które dawały najlepsze wyniki.
 
 Poszczególnym parametrom zostały nadane następujące wagi:
 \begin{itemize}
-\item pozycja najlepszej cząsteczki z populacj: 0,4
-\item historycznie najlepsza pozycja danej cząsteczki: 0,2
-\item poprzednia pozycja cząsteczki: 0,5
-\item losowy wektor: 0,1
+\item pozycja najlepszej cząsteczki z populacji: 0.4
+\item historycznie najlepsza pozycja danej cząsteczki: 0.2
+\item poprzednia pozycja cząsteczki: 0.5
+\item losowy wektor: 0.1
 \end{itemize}
 
 
@@ -130,23 +132,24 @@ Poszczególnym parametrom zostały nadane następujące wagi:
 \end{center}
 \end{figure}
 
+Wykorzystanie wag parametrów pozwoliło znacząco poprawić jakość rozwiązania w początkowych iteracjach, jednak wraz z postępem algorytmu wynik utrzymywał się na stałym poziomie. Dopiero wykorzystanie wraz z wagami spowolnienia pozwoliło osiągać coraz dokładniejszy wynik w kolejnych iteracjach. Wykorzystanie jedynie wag parametrów zwiększyło również różnorodność pomiędzy agentami.
 
 \section{Podsumowanie}
-Jak można zauważyć na wykresie \ref{fig:compared_baza_v_randV_paramV_fitness}, najlepsze dopasowanie zostało osiągnięte gdy zostały połączone ze sobą wszystkie trzy modyfikacje, czyli spowolnienie prędkości cząsteczek w czasie, dodanie losowego wektora oraz nadanie wag wszystkim parametrom. 
+Jak można zauważyć na wykresie \ref{fig:compared_baza_v_randV_paramV_fitness}, najlepsze dopasowanie zostało osiągnięte, gdy zostały połączone ze sobą wszystkie trzy modyfikacje, czyli spowolnienie prędkości cząsteczek w czasie, dodanie losowego wektora oraz nadanie wag wszystkim parametrom. 
 
-Zastosowanie spowolnienia pozwoliło cząsteczkom na początkowe szybkie ale niedokładne przeszukiwanie przestrzeni rozwiązań. Wraz z postępem algorytmu ich wolniejsza prędkość przemieszczania pozwoliła na dokładniejsze przeszukiwania w momencie gdy rój znajdował się bliżej prawidłowego rozwiązania. Jednocześnie pozwoliło to cząsteczkom na uniknięcie "porzeskakiwania" prawidłowego rozwiązania, czyli omijania go w przypadku gdy były już bardzo blisko niego.
+Zastosowanie spowolnienia pozwoliło cząsteczkom na początkowe szybkie, ale niedokładne przeszukiwanie przestrzeni rozwiązań. Wraz z postępem algorytmu ich wolniejsza prędkość przemieszczania pozwoliła na dokładniejsze przeszukiwania w momencie, gdy rój znajdował się bliżej prawidłowego rozwiązania. Jednocześnie pozwoliło to cząsteczkom na uniknięcie ,,przeskakiwania'' prawidłowego rozwiązania, czyli omijania go w przypadku, gdy były już bardzo blisko niego.
 
 Wykorzystanie losowego wektora pozwoliło cząsteczkom na uniknięcie ryzyka pozostania w lokalnym ekstremum. Nadawany dodatkowy kierunek przemieszczenia wymuszał na części roju rozpoczęcie przeszukiwania innego fragmentu przestrzeni rozwiązań.
 
 Nadanie wag parametrom rozwiązało problemy zobrazowane na wykresie \ref{fig:compared_baza_r_vr_fitness}, kiedy to losowy wektor zbyt mocno wpływał na ruch cząsteczki i nie pozwalał jej na znalezienie prawidłowego rozwiązania. Zwiększenie wagi najlepszej pozycji stada względem historycznie najlepszej danej cząsteczki pozwoliło na mocniejsze zgrupowanie roju. Jednoczesna wysoka waga poprzedniego ruchu pozwalała cząsteczce na przeszukiwania po własnej ścieżce, eliminując ryzyko zebrania się roju wokół jednego punktu.
 
-Wykresu \ref{fig:compared_baza_v_randV_paramV_msd_diversity}, obrazujący różnorodność cząsteczek opartą o odchylenie standardowe, oraz \ref{fig:compared_baza_v_randV_paramV_moi_diversity}, oparty na momencie bezwładności środka ciężkości układu punktów, obrazują najmniejszą różnorodność cząsteczek w podstawowej wersji algorytmu. Nadawanie wag wektorom, bez jednoczesnego ich spowalniania spowodowało najwięszką różnorodność, co jest wynikiem najmniejszej szansy na grupowanie się cząsteczek. Większość analizowanych algorytmów, wraz z postępem iteracji utrzymuje różnorodność na stałym poziomie, wynika to z faktu scalenia roju od losowego położenia i następnie przemieszczania się już wspólnie.
+Wykres \ref{fig:compared_baza_v_randV_paramV_msd_diversity}, obrazujący różnorodność cząsteczek opartą o odchylenie standardowe, oraz \ref{fig:compared_baza_v_randV_paramV_moi_diversity}, oparty na momencie bezwładności środka ciężkości układu punktów, obrazują najmniejszą różnorodność cząsteczek w podstawowej wersji algorytmu. Nadawanie wag wektorom bez jednoczesnego ich spowalniania spowodowało najwięszką różnorodność, co jest wynikiem najmniejszej szansy na grupowanie się cząsteczek. Większość analizowanych algorytmów, wraz z postępem iteracji, utrzymuje różnorodność na stałym poziomie, wynika to z faktu scalenia roju od losowego położenia i następnie przemieszczania się już wspólnie.
 
-Analizując czasy wykonanania poszczególnych konfiguracji, zobrazowane na wykresie \ref{fig:czasy_psotesty} można zauważyć, że wraz z dokładaniem kolejnych składowych algorytmu czas ich wykonywania rośnie. Różnica między najszybciej wykonującą się konfiguracją, podstawową, a najdłużej wykonującą się, z dodanym losowym wektorem, wagami parametrów i zmianą prędkości wynosi jedynie niecałe trzy sekundy, co stanowi około 7\%. Jednocześnie różnica w jakości rozwiązania jest prawie dwukrotna, na korzyść wolniejszego z nich.
+Analizując czasy wykonanania poszczególnych konfiguracji zobrazowanych na wykresie \ref{fig:czasy_psotesty} można zauważyć, że wraz z dokładaniem kolejnych składowych algorytmu czas ich wykonywania rośnie. Różnica między najszybciej wykonującą się konfiguracją (podstawową), a najdłużej wykonującą się (z dodanym losowym wektorem, wagami parametrów i zmianą prędkości) wynosi jedynie niecałe trzy sekundy, co stanowi około 7\%. Jednocześnie różnica w jakości rozwiązania jest prawie dwukrotna na korzyść wolniejszego z nich.
 
 \begin{figure}[H]
 \begin{center} 
-\includegraphics[scale=0.6]{tresc/pics/psotesty/compared_baza_v_param_paramV_fitness.png}
+\includegraphics[scale=0.6]{tresc/pics/psotesty/compared_baza_v_randV_paramV_fitness.png}
 \caption{Porównanie dopasowania najlepszych konfiguracji}
 \label{fig:compared_baza_v_randV_paramV_fitness}
 \end{center}
@@ -156,7 +159,7 @@ Analizując czasy wykonanania poszczególnych konfiguracji, zobrazowane na wykre
 
 \begin{figure}[H]
 \begin{center} 
-\includegraphics[scale=0.6]{tresc/pics/psotesty/compared_baza_v_param_paramV_msd_diversity.png}
+\includegraphics[scale=0.6]{tresc/pics/psotesty/compared_baza_v_randV_paramV_msd_diversity.png}
 \caption{Porównanie różnorodności MSD najlepszych konfiguracji}
 \label{fig:compared_baza_v_randV_paramV_msd_diversity}
 \end{center}
@@ -164,7 +167,7 @@ Analizując czasy wykonanania poszczególnych konfiguracji, zobrazowane na wykre
 
 \begin{figure}[H]
 \begin{center} 
-\includegraphics[scale=0.6]{tresc/pics/psotesty/compared_baza_v_param_paramV_moi_diversity.png}
+\includegraphics[scale=0.6]{tresc/pics/psotesty/compared_baza_v_randV_paramV_moi_diversity.png}
 \caption{Porównanie różnorodności MOI najlepszych konfiguracji}
 \label{fig:compared_baza_v_randV_paramV_moi_diversity}
 \end{center}

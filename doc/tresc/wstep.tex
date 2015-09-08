@@ -1,35 +1,29 @@
 \chapter{Wprowadzenie}
 \label{cha:wstep}
 
+Tematem niniejszej pracy jest sprawdzenie skuteczności algorytmu roju cząstek w wybranych problemach optymalizacji ciągłej. Skuteczność rozwiązania została porównana z istniejącym rozwiązaniem zaimplementowanym na platformie pyAgE.
 
-Tematem niniejszej pracy jest sprawdzenie skuteczności algorytmu roju cząstek w wybranych problemach optymalizacji ciągłej. Skuteczność rozwiązania została oceniona względem dostarczonej platformy wraz z istniejącym rozwiązaniem.
+Optymalizacja jest wyznaczeniem spośród dopuszczalnych rozwiązań danego problemu, rozwiązania najlepszego ze względu na przyjęte kryterium (wskaźnik) jakości (np. koszt, zysk, niezawodność). Optymalizacja ciągła jest takim rodzajem optymalizacji, w którym wszystkie zmienne funkcji celu są ciągłe, czyli należą do nieprzerwanego zbioru liczb. Często problemy optymalizacyjne są problemami, w których przestrzeń przeszukiwań jest za duża lub zbyt skomplikowana, żeby można było ją eksplorować jednocześnie wydajnie i dokładnie.
 
-Algorytm roju cząstek jest heurystyką, która doskonali rozwiązanie danego problemu, poprzez iteracyjne modyfikowanie parametrów. Dokładny opis działania algorytmów rojowych został opisany w rozdziale \ref{cha:pso}.
+Przy rozwiązywaniu tak złożonych problemów wykorzystywane są heurystyki. Heurystyką nazywamy taką metodę znajdowania rozwiązań, która nie daje gwarancji znalezienia optymalnego rozwiązania. Brak gwarancji znalezienia rozwiązania wynika z faktu, że heurystyki przeszukują przestrzeń rozwiązań i wraz z postępem algorytmu modyfikują jego składowe parametry dostosowywując się do osiąganych wyników pośrednich.
 
-Heurystyką nazywamy taką metodę znajdowania rozwiązań, która nie daje gwarancji znalezienia optymalnego rozwiązania. Metody takie używane są w przypadkach, gdy pełny algorytm jest nieznany lub jest zbyt kosztowny w wykonaniu.
+Algorytm roju cząstek, jak również algorytm wykorzystywany w niniejszej pracy w celu porównia skuteczności są heurystykami. Doskonalą one rozwiązanie danego problemu poprzez iteracyjne modyfikowanie parametrów. Algorytmy ewolucyjne czerpią z obserwowanego w przyrodzie procesu ewolucji - podczas działania algorytmu jego najlepiej przystosowane składowe są iteracyjnie modyfikowane, natomiast te przystosowane najgorzej są odrzucane. Algorytm roju cząstek bazuje na zachowaniach stadnych. W każdej kolejnej iteracji elementy algorytmu wpływają na siebie na podstawie swojego położenia w przestrzeni rozwiązań.
 
-Wykorzystywane w niniejszej pracy w celu porównania skuteczności algorytmy ewolucyjne, również należą do heurystyk. Ich metoda działania została opisana w rozdziale \ref{cha:genetyczne}.
-
-Optymalizacja jest to wyznaczenie spośród dopuszczalnych rozwiązań danego problemu rozwiązania najlepszego za względu na przyjęte kryterium (wskaźnik) jakości (np. koszt, zysk, niezawodność). Optymalizacja ciągła jest takim rodzajem optymalizacji, w którym wszystkie zmienne funkcji celu są ciągłe, czyli należa do nieprzerwanego zbioru liczb.
 
 
 \section{Cele pracy}
 \label{sec:celePracy}
-Celem pracy jest realizacja implementacji algorytmu roju cząstek, oraz badanie ich skuteczności. W implementacji zostanie wykorzystane istniejące środowisko agentowe (pyAgE). Wspiera ono budowę rozproszonych modeli obliczeniowych oraz zostało napisane w języku Python.
+Celem pracy była implementacja algorytmu roju cząstek oraz zbadanie jego skuteczności w wybranych problemach benchmarkowych. W implementacji zostało wykorzystane istniejące środowisko agentowe - pyAgE. Wspiera ono budowę rozproszonych modeli obliczeniowych oraz dostarcza zestaw narzędzi umożliwiających porównanie zaimplementowanych rozwiązań.
 
-Dzięki zastosowaniu środowiska agentowego zostanie sprawdzona użyteczność algorytmów rojowych przy przyjęciu każdego osobnika jako osobnego agenta.
-
-Skuteczność zaimplementowanych rozwiązań będzie sprawdzana w wybranych problemach benchmarkowych. Warianty konfiguracji jak i dobrane parametry zostaną dobrane eksperymentalnie. 
-
-Finalnym celem jest porównanie otrzymanych rozwiązań z już istniejącym na platformie algorytmem ewolucyjnym - EMAS.
+Finalnym celem było porównanie otrzymanych rozwiązań z istniejącym algorytmem ewolucyjnym - EMAS. Aby wykonać porównanie zostały przeprowadzone analizy składowych parametrów wykonanych modyfikacji algorytmu rojowego, a następnie zostały wykorzystane te, które dawały najdokładniejsze rozwiązanie.
 
 
 \section{Zakres pracy}
-W czasie realizacji pracy, została rozszerzona platforma pyAgE o możliwość dokonywania obliczeń za pomocą algorytmu roju cząstek. Zostały zaimplementowane zarówno elementy składowe algorytmu jak i przetestowane konfiguracje pozwalające na badanie skuteczności algorytmu. 
+W czasie realizacji pracy, zostały stworzone komponenty na platformę pyAgE dające możliwość dokonywania obliczeń za pomocą algorytmu roju cząstek. Zostały zaimplementowane zarówno elementy składowe algorytmu, jak i przetestowane konfiguracje pozwalające na badanie jego skuteczności. 
 
-Porównanie odbywało się pomiędzy dostarczonym wraz z platformą pyAgE algorytmem genetycznym EMAS, a różnymi konfiguracjami algorytmu roju cząstek. 
+Porównanie odbywało się na platformie pyAgE pomiędzy istniejącym algorytmem ewolucyjnym EMAS, a różnymi konfiguracjami algorytmu roju cząstek. 
 
-Algorytm roju cząstek został przystosowany aby sprawdzić jego skuteczność w kilku wersjach:
+Algorytm roju cząstek został przystosowany, aby sprawdzić jego skuteczność w kilku wersjach:
 \begin{itemize}
 \item Podstawowa wersja, zawierająca możliwość sterowania:
 \begin{itemize}
@@ -43,13 +37,13 @@ Algorytm roju cząstek został przystosowany aby sprawdzić jego skuteczność w
 
 
 \section{Zawartość pracy}
-Rozdział \ref{cha:pyage} zawieraja informację o platformie pyAgE i jej komponentach. Znajdują się tam również informacje o funkcjach benchamrkowych, ze szczególnym uwzględnieniem funkcji stosowanej do porównania w niniejszej pracy.
+Rozdział \ref{cha:pyage} zawiera informacje o platformie pyAgE i jej komponentach. Znajdują się w nim również informacje o funkcji benchamrkowej stosowanej do porównania wyników niniejszej pracy.
 
-Następną częscią pracy (rozdziały \ref{cha:pso} i \ref{cha:genetyczne}) jest przybliżenie mechanizmów działania zarówno algorytmów rojowych jak i ewolucyjnych, szczególnie tych, które zostały zastosowane w implementacji. W rodziale \ref{sec:psoModyfikacje} zostały opisane częste modyfikacje algorytmu roju cząstek.
+Następną częscią pracy (rozdziały \ref{cha:pso} i \ref{cha:genetyczne}) jest przybliżenie mechanizmów działania zarówno algorytmów rojowych, jak i ewolucyjnych - szczególnie tych, które zostały zastosowane w implementacji. W rodziale \ref{sec:psoModyfikacje} zostały opisane częste modyfikacje algorytmu roju cząstek.
 
-W rozdziale \ref{cha:psoTesty} znajdują się informację o zaimplementowanych rozwiązaniach oraz wyniki badań prowadzące do uzyskania najlepszych parametrów algorytmu roju cząstek.
+Rozdział \ref{cha:ewaluacja} opisuje sposób zbierania i porównywania otrzymanych wyników. W rozdziale \ref{cha:psoTesty} znajdują się informacje o zaimplementowanych rozwiązaniach oraz wyniki badań prowadzące do uzyskania najlepszych parametrów algorytmu roju cząstek.
 
-Pod koniec pracy znajdują się porównania algorytmów rojowego i ewolucyjnego oraz analiza skuteczności algorytmu rojowego pod kątem postawionego problemu.
+Zakończenie pracy poświęcone zostało porównaniu algorytmów rojowego i ewolucyjnego oraz analiza skuteczności algorytmu rojowego pod kątem postawionego problemu.
 
 
 

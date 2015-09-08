@@ -1,10 +1,33 @@
-\chapter{Podsumowanie}
+\chapter{Podsumowanie wyników}
 \label{cha:podsumowanie}
 
-Rozdzial podsumowywujący wszystkie wyniki razem  z jakims ogolnym komentarzem
+Wszystkie założone cele pracy, opisane w rozdziale \ref{sec:celePracy}, zostały osiągnięte. Do platformy pyAgE zostały dodane komponenty umożliwiające dokonanie obliczeń za pomocą algorytmów rojowych.
 
-\section{zalety pso wzgledem emas}
-\section{mozliwy rozwoj}
+Został przeanalizowany szereg konfiguracji i rozszerzeń algorytmu roju cząstek. Szczegółowe wyniki porównujące jakość zaimplementowanego algorytmu pod kątem różnych jego modyfikacji znajdują się w rozdziale \ref{cha:psoTesty}. 
+
+Spośród sprawdzanych rozwiązań zostało wybrane dające najlepszą wartość dopasowania, a następnie porównane z istniejącą implementacją algorytmu EMAS. Aby w pełni wykorzystać platformę obliczeniową, zostały wykonane modyfikacje algorytmu roju cząstek w oparciu o elementy przez nią dostarczane. W rozdziale \ref{cha:psovsemas} znajduje się porównanie jakości rozwiązań otrzymywanych poprzez wykorzystanie takich modyfikacji.
+
+Wykonane analizy skuteczności algorytmu roju cząstek wykazały, że wykorzystanie wieloagentowej platformy do implementacji algorytmów rojowych daje wyniki mogące konkurować z algorytmami ewolucyjnymi. 
+
+
+\section{Zalety wykorzystania algorytmu roju cząstek}
+
+Jak można zaobserwować na podstawie danych przedstawionych w rozdziale \ref{cha:psovsemas}, algorytm PSO radzi sobie niewiele gorzej niż algorytm EMAS. Zdecydowaną zaletą badanego rozwiązania jest ilość iteracji w jakiej algorytm rojowy osiąga stosunkowo zadowalającą wartość funkcji dopasowania. Algorytm EMAS na osiągnięcie podobnej jakości potrzebuje ponad dwukrotnie większej ilości iteracji.
+
+Przy wykorzystaniu jednej wyspy obliczeniowej już w momencie pięćsetnej iteracji wartość dopasowania dla rozwiązania jest zauważalnie lepsza niż dla algorytmu EMAS, co pozwala na szybkie prototypowanie przy rozwiązywaniu bardziej skomplikowanych problemów. Z drugiej jednak strony, wraz z postępem obliczeń wzrost jakości nie jest już tak szybki.
+
+Wykorzystywanie rozwiązań dostarczonych przez platformę pyAgE, jak również połączenie algorytmów rojowego z ewolucyjnym dało pozytywny skutek. Rozszerzenie wiedzy agenta będącego cząsteczką roju o wiedzę na temat rozwiązania wypracowanego przez jego sąsiadów i dodanie najlepszego z nich jako wektora składowego pozwoliło na skuteczne konkurowanie z rozwiązaniami wypracowywanymi przez algorytm EMAS. Wraz z postępem iteracji jakość rozwiązania opracowywana przez rój jest stale poprawiana i przy wykorzystaniu jednej wyspy obliczeniowej jest w stanie konkurować z algorytmem ewolucyjnym.
+
+Wykonywanie przez każdego agenta na początku każdego kolejnego kroku elementów algorytmu ewolucyjnego, a następnie rojowego zgodnie z oczekiwaniami spowodowało wzrost czasu wykonywania, jednak pozwoliło na opracowywanie najlepszych rozwiązań. Połączenie algorytmów pozwala na początkowo szybsze przybliżanie się do globalnego ekstremum niż algorytm EMAS, a wraz z postępem iteracji pozwala na szybsze dalsze udoskonalania iteracji niż algorytm PSO. 
+
+
+
+\section{Możliwy rozwój}
+Ponieważ algorytm roju cząstek jest algorytmem umożliwiającym łatwe modyfikacje, możliwe jest wprowadzenie dodatkowych parametrów warunkujących ruch cząstki. Jedną z przykładowych możliwych modyfikacji może być wykorzystanie sąsiedztwa innych cząstek w przestrzeni rozwiązań jako kolejnej składowej. 
+
+Podczas eksperymentów zauważalny był spadek jakości rozwiązań algorymtu rojowego względem ewolucyjnego w przypadku zwiększenia ilości wysp obliczeniowych. Jest to pole do dalszych ulepszeń, które mogą skutkować lepszym wykorzystaniem dostarczanych przez platformę mechanizmów. Umożliwienie migracji cząstek pomiędzy wyspami spowodowałoby zmniejszenie ryzyka utknięcia roju w lokalnym minimum.
+
+Inteligencja stadna jest szeroko rozwijaną koncepcją, o czym świadczyć może długa i ciągle rozszerzająca się lista algorytmów inspirowanych naturą \cite{listaswarm}. Dzięki prostemu interfejsowi dostarczanemu przez platformę, jak i prostym mechanizmom konfigurowania i testowania rozwiązań, możliwe jest szybkie sprawdzanie skuteczności nowych algorytmów stadnych. 
 
 
 
