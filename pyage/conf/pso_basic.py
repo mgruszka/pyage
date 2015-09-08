@@ -20,7 +20,7 @@ agents = unnamed_agents(agents_count, AggregateAgent)
 
 stop_condition = lambda: StepLimitStopCondition(3001)
 
-aggregated_agents = lambda: pso_initializer(40, size=int(50/agents_count), lowerbound=-10, upperbound=10)
+aggregated_agents = lambda: pso_initializer(40, size=int(360/agents_count), lowerbound=-10, upperbound=10)
 
 pso = PsoService
 

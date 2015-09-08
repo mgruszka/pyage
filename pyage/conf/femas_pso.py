@@ -25,7 +25,7 @@ agents = unnamed_agents(agents_count, AggregateAgent)
 
 stop_condition = lambda: StepLimitStopCondition(3001)
 
-aggregated_agents = lambda: float_emas_initializer(40, energy=100, size=int(50/agents_count), lowerbound=-10, upperbound=10)
+aggregated_agents = lambda: float_emas_initializer(40, energy=100, size=int(360/agents_count), lowerbound=-10, upperbound=10)
 
 emas = EmasPsoService
 
@@ -38,6 +38,7 @@ transferred_energy = lambda: 40
 global_velocity = lambda: 0.4
 local_velocity = lambda: 0.2
 random_velocity = lambda: 0.01
+old_velocity = lambda: 0.4
 
 evaluation = FloatRastriginEvaluation
 crossover = SinglePointCrossover
