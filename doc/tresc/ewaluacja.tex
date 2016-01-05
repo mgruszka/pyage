@@ -1,0 +1,116 @@
+\chapter{Wybrane aspekty realizacyjne}
+\label{cha:ewaluacja}
+
+Wszystkie konfiguracje implementacji zostały przetestowane i porównane na podstawie wielowymiarowej funkcji Rastrigina, opisanej w rozdziale \ref{sec:rastrigin} oraz przy wykorzystaniu takiego samego sprzętu. Na sprzęcie był zainstalowany system operacyjny Ubuntu 14.04LTS. Obliczenia były wykonywane na procesorze Intel Core 2 Duo CPU T9600 taktowanym częstotliwością 2.80GHz na każdy z dwóch rdzeni i 8GB pamięci RAM DDR3 taktowanej 1333MHz.
+
+\section{Platforma implementacyjna}
+\label{sec:pyageopis}
+Platformą, na której zostały uruchomione porównywane algorytmy był napisany w języku Python pyAgE\footnote{https://github.com/maciek123/pyage} \cite{pyage}. Jest to środowisko wieloagentowe, bazujące na implementacji pod nazwą AgE (ang. Agent-based Evolution). Platforma AgE powstała na podstawe założeń i wymagań przedstawionych powyżej.
+
+Najważniejszą częścią systemu jest dostarczenie mechanizmu wykonywania obliczeń. Podstawowe elementy implementacji systemu stanowią bazę dla realizacji różnej klasy rozwiązań. Ponadto, dzięki odpowiedniej konfiguracji rozwiązania mogą zostać uruchomione jako sieciowa usługa obliczeniowa.
+
+Jak zostało wspomniane wcześniej, podstawową jednostką składową jest agent, gdzie każdy agent jest unikalny w skali całego systemu. W środowisku można wyróżnić również agregaty, które mogą ,,posiadać'' agentów, którzy współdziałają ze sobą. Agregaty zarządzają działaniem podległych im agentów, między innymi pośredniczą w komunikacji między nimi, nadzorują cykl ich życia czy wykonywanie akcji.
+
+W środowisku dostępne są następujące funkcjonalności:
+\begin{itemize}
+\item zlecenie przez agenta wykonania pewnej akcji
+\item zapytanie przez agenta o własności innych agentów
+\item dodanie nowego agenta
+\item migracja agenta
+\item śmierć agenta
+\end{itemize}
+
+Platforma została stworzona z myślą o algorytmach ewolucyjnych, między innymi algorytmie EMAS. Dzięki temu dostarcza mechanizmu wysp obliczeniowych, które są jedną ze składowych części algorytmu EMAS, szerzej opisanego w rozdziale \ref{sec:emas}. To właśnie pomiędzy tymi wyspami możliwa jest migracja poszczególnych agentów.
+
+\section{Metodyka prowadzenia eksperymentów}
+Startowa populacja dla wszystkich konfiguracji wynosiła 360 agentów. Warunkiem stopu dla algorytmów było osiągnięcie globalnego minimum (które dla funkcji Rastrigina wynosi 0) lub przekroczenie limitu 3000 iteracji. Wszystkie eksperymenty zostały powtórzone trzydziestokrotnie, a przedstawiane wyniki zostały uśrednione z zawartym odchyleniem standardowym.
+
+Dla algorytmu EMAS, mutacja była wykonywana poprzez losową modyfikację każdego z genów w genotypie. Krzyżowanie odbywało się poprzez podzielenie genotypów rodziców w jednym miejscu, a potomek otrzymywał po jednej części od każdego z rodziców. Można to zaobserwować na rysunku \ref{fig:spc}. Agenci byli zainicjalizowani z energią równą 100, a pozostałe wartości energii prezentowały się następująco:
+
+\begin{itemize}
+\item śmierć agenta = 0
+\item minimum dla reprodukcji = 90
+\item minimum dla migracji = 120
+\item energia dla nowonarodzonych agentów = 100
+\item transfer energii = 40
+\end{itemize}
+
+
+\begin{figure}[H]
+\begin{center} 
+\includegraphics[scale=0.5]{tresc/pics/singlepointcrossover.png}
+\caption{Krzyżowanie}
+\label{fig:spc}
+\end{center}
+\end{figure}
+
+\clearpage
+
+\section{Sposób porównywania wyników}
+\label{sec:porownywanieWynikow}
+
+W celu porównania jakości algorytmów, podczas obliczeń zbierane były informacje o:
+\begin{itemize}
+\item Wartości funkcji dopasowania - fitness
+\item Różnorodności agentów w populacji:
+\begin{itemize}
+\item Różnorodność MSD
+\item Różnorodność MOI
+\end{itemize}
+\item Liczebności populacji
+\item Czasie obliczeń
+\end{itemize}
+
+Wartość funkcji dopasowania jest głównym kryterium oceny jakości danego algorytmu. Na jej podstawie podczas eksperymentów zostały odrzucane pewne rozwiązania, a inne były rozwijane. Jej wartość informuje jak blisko optymalnego rozwiązania znajduje się rozwiązanie wypracowane przez populację. Im wartość funkcji bliższa zeru, tym jakość rozwiązania jest lepsza.
+
+Różnorodność populacji była mierzona za pomocą dwóch kryteriów, MSD oraz MOI, które zostały szczegółowo opisane w rozdziale \ref{sec:roznorodnosc}. Wartość różnorodności informuje jak bardzo genotyp agentów różni się pomiędzy sobą. Większa różnorodność informuje o szerszym przeszukiwaniu przestrzeni rozwiązań przez populację oraz zmniejsza ryzyko utknięcia w lokalnym ekstremum.
+
+Podczas działania algorytmu EMAS liczebność populacji zmienia się w skutek śmierci i rozmnażania agentów. W przypadku algorytmu roju cząstek populacja początkowa nie zmienia swojej liczebności. W rozdziale \ref{cha:psovsemas}, w którym porównywane są algorytmy EMAS i PSO, znajdują się informacje o zmianie liczebności populacji w kolejnych iteracjach.
+
+Dla każdej konfiguracji mierzony był czas obliczeń, który prezentowany jest w formie uśrednionego wyniku.
+
+
+\section{Problem testowy}
+\label{sec:rastrigin}
+
+Funkcja Rastrigina, zaproponowana w 1974 roku \cite{rastrigin}, używana jest jako problem testu wydajności dla algorytmów optymalizacji. Jest to funkcja nieliniowa. Znalezienie minimum funkcji jest stosunkowo trudnym problemem, ze względu na dużą przestrzeń poszukiwań i istnienie wielu minimów lokalnych, co można zaobserwować na rysunku \ref{fig:rastrigin_function} wizualizującym funkcję dla dwóch zmiennych.
+
+\begin{figure}[H]
+\begin{center} 
+\includegraphics[scale=0.3]{tresc/pics/rastrigin_function.png}
+\caption{Funkcja Rastrigina dwóch zmiennych\footnotemark} 
+\label{fig:rastrigin_function}
+\end{center}
+\end{figure}
+
+\footnotetext{http://commons.wikimedia.org/wiki/File:Rastrigin function.png}
+Funkcja została zgeneralizowana do n zmiennych w 1991 roku \cite{rastrigin2} i jej ogólną wersję można opisać wzorem \ref{equ:funkcjarastriginawielowymiarowa}. 
+
+\begin{equation}
+ f(x) = A n + \sum_{i=1}^n(x_{i}^2 - A cos(2 \pi x_{i}))
+ \label{equ:funkcjarastriginawielowymiarowa}
+\end{equation}
+
+We wszystkich badaniach porównujących jakość zaimplementowanych rozwiązań używana jest 40-wymiarowa funkcja Rastrigina. Jej parametr $A$ jest równy 10, natomiast wartości przyjmowane przez $x$ należą do przedziału $[-10, 10]$.
+
+\section{Badanie różnorodności populacji}
+\label{sec:roznorodnosc}
+
+W celu porównania rozwiązań agentów w populacji zastosowane zostały dwie miary różnorodności: MSD i MOI. Większa różnorodność populacji informuje o szerszym przeszukiwaniu przestrzeni rozwiązań, co pozwala uniknąć utknięcia w lokalnych ekstremach danego problemu.
+
+\subsection*{Różnorodność MSD}
+Pierwszym sposobem mierzenia różnorodności jest MSD (ang. maximum standard deviation), czyli maksymalne odchylenie standardowe. 
+
+Maksymalne odchylenie standardowe każdego genu obliczone dla wszystkich agentów w populacji skupia się na dyspersji średnich wartości obliczonych dla poszczególnych genów \cite{roznorodnosckisiel}.
+
+\subsection*{Różnorodność MOI}
+Drugim rodzajem różnorodności jest różnorodność MOI (Morrison-De Jong) \cite{roznorodnoscmoi}. W sposobie tym pomiar oparty jest na koncepcji momentu bezwładności dla środka ciężkości populacji. Środek ciężkości obliczany jest dla punktów rozproszonych w wielowymiarowej przestrzeni. Podejście takie pozwala na skuteczny pomiar rozkładu masy w dowolnie wielowymiarowych przestrzeniach. 
+
+Miara opierająca się o inercję została zdefiniowana wzorem \ref{equ:moi}, gdzie $c_j$ to współrzędne środka masy, natomiast $x_{ij}$ oznacza wartość i-tego genu w j-tym chromosomie.
+
+\begin{equation}
+ I = \sum_{i=1}^n\sum_{j=1}^N(x_{ij} - c_j)^2
+ \label{equ:moi}
+\end{equation}
+
+

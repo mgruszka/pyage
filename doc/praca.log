@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.14)  8 SEP 2015 19:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.14)  17 OCT 2015 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -456,6 +456,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box30
 )
+(/usr/share/texlive/texmf-dist/tex/latex/mdwtools/footnote.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box31
+\fn@width=\dimen127
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
@@ -470,41 +475,37 @@ LaTeX Warning: Unused global option(s):
     [11pt].
 
 (./praca.aux (./tresc/wstep.aux) (./tresc/genetyczne.aux) (./tresc/pso.aux)
-(./tresc/pyage.aux) (./tresc/ewaluacja.aux) (./tresc/psoTesty.aux)
-(./tresc/psovsgenetyczne.aux) (./tresc/podsumowanie.aux)
-(./tresc/bibliografia.aux
-
-LaTeX Warning: Label `rastrigin' multiply defined.
-
-))
+(./tresc/ewaluacja.aux) (./tresc/psoTesty.aux) (./tresc/psovsgenetyczne.aux)
+(./tresc/podsumowanie.aux) (./tresc/bibliografia.aux))
 \openout1 = `praca.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 67.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 68.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
-\scratchdimen=\dimen127
-\scratchbox=\box31
+\scratchdimen=\dimen128
+\scratchbox=\box32
 \nofMPsegments=\count105
 \nofMParguments=\count106
 \everyMPshowfont=\toks23
 \MPscratchCnt=\count107
-\MPscratchDim=\dimen128
+\MPscratchDim=\dimen129
 \MPnumerator=\count108
 \makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks24
@@ -590,38 +591,38 @@ e
 <agh.jpg, id=1, 146.4672pt x 284.7438pt>
 File: agh.jpg Graphic file (type jpg)
  <use agh.jpg>
-Package pdftex.def Info: agh.jpg used on input line 69.
+Package pdftex.def Info: agh.jpg used on input line 70.
 (pdftex.def)             Requested size: 87.88098pt x 170.8476pt.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 69.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 70.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 69.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 70.
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <12> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 69.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 70.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 69.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 70.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 69.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 70.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 69.
+(Font)              <10.95> on input line 70.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 69.
+(Font)              <8> on input line 70.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 69.
+(Font)              <6> on input line 70.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 69.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 70.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./agh.jpg>] [2
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 71.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 71.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 72.
  (./praca.toc [3
 
 ] [4])
@@ -630,24 +631,36 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 
 
 (./praca.lof
-Underfull \vbox (badness 1755) has occurred while \output is active []
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.10 ...ych\let \reserved@d =[\def {\@@par }}}{23}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
 
- [5])
+[5])
 \tf@lof=\write4
 \openout4 = `praca.lof'.
 
-
-[6]
+ [6]
 \openout2 = `tresc/wstep.aux'.
 
  (./tresc/wstep.tex
 Rozdzia\l  1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-[7
+
+Underfull \vbox (badness 3471) has occurred while \output is active []
+
+ [7
 
 
-]) [8]
+])
+[8]
 \openout2 = `tresc/genetyczne.aux'.
 
  (./tresc/genetyczne.tex
@@ -656,76 +669,101 @@ Rozdzia\l  2.
 File: tresc/pics/GAdiagram.png Graphic file (type png)
 
 <use tresc/pics/GAdiagram.png>
-Package pdftex.def Info: tresc/pics/GAdiagram.png used on input line 20.
+Package pdftex.def Info: tresc/pics/GAdiagram.png used on input line 18.
 (pdftex.def)             Requested size: 249.33342pt x 291.49124pt.
  [9
 
 
 
 ]
-Underfull \vbox (badness 6173) has occurred while \output is active []
-
- [10 <./tresc/pics/GAdiagram.png>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 39.
- [11]) [12]
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 32.
+ [10 <./tresc/pics/GAdiagram.png>] [11]
+[12]) [13]
 \openout2 = `tresc/pso.aux'.
 
  (./tresc/pso.tex
 Rozdzia\l  3.
-[13
+[14
 
 
 
-] [14] <tresc/pics/psoRuch.png, id=62, 405.515pt x 297.11pt>
+]
+Underfull \vbox (badness 1158) has occurred while \output is active []
+
+ [15]
+<tresc/pics/psoRuch.png, id=65, 405.515pt x 297.11pt>
 File: tresc/pics/psoRuch.png Graphic file (type png)
 
 <use tresc/pics/psoRuch.png>
-Package pdftex.def Info: tresc/pics/psoRuch.png used on input line 82.
+Package pdftex.def Info: tresc/pics/psoRuch.png used on input line 84.
 (pdftex.def)             Requested size: 324.41243pt x 237.68831pt.
- [15 <./tresc/pics/psoRuch.png>] [16]
-<tresc/pics/psoDiagram.png, id=70, 547.04375pt x 795.97375pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+[17 <./tresc/pics/psoRuch.png>]
+<tresc/pics/psoDiagram.png, id=73, 547.04375pt x 795.97375pt>
 File: tresc/pics/psoDiagram.png Graphic file (type png)
 
 <use tresc/pics/psoDiagram.png>
-Package pdftex.def Info: tresc/pics/psoDiagram.png used on input line 98.
+Package pdftex.def Info: tresc/pics/psoDiagram.png used on input line 100.
 (pdftex.def)             Requested size: 300.87498pt x 437.78693pt.
- [17
+ [18
 
- <./tresc/pics/psoDiagram.png>]) [18]
-\openout2 = `tresc/pyage.aux'.
-
-
-(./tresc/pyage.tex
-Rozdzia\l  4.
-[19
-
-
-
-]) [20]
+ <./tresc/pics/psoDiagram.png>]) [19]
 \openout2 = `tresc/ewaluacja.aux'.
 
- (./tresc/ewaluacja.tex
-Rozdzia\l  5.
-<tresc/pics/singlepointcrossover.png, id=84, 654.445pt x 109.40875pt>
+
+(./tresc/ewaluacja.tex
+Rozdzia\l  4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 8.
+[20
+
+
+
+] <tresc/pics/singlepointcrossover.png, id=84, 654.445pt x 109.40875pt>
 File: tresc/pics/singlepointcrossover.png Graphic file (type png)
 
 <use tresc/pics/singlepointcrossover.png>
 Package pdftex.def Info: tresc/pics/singlepointcrossover.png used on input line
- 21.
+ 41.
 (pdftex.def)             Requested size: 327.2217pt x 54.70422pt.
- [21
-
-
-
- <./tresc/pics/singlepointcrossover.png>] <tresc/pics/rastrigin_function.png, i
-d=88, 1510.443pt x 827.4915pt>
+ [21 <./tresc/pics/singlepointcrossover.png>] <tresc/pics/rastrigin_function.pn
+g, id=88, 1510.443pt x 827.4915pt>
 File: tresc/pics/rastrigin_function.png Graphic file (type png)
 
 <use tresc/pics/rastrigin_function.png>
-Package pdftex.def Info: tresc/pics/rastrigin_function.png used on input line 6
-1.
+Package pdftex.def Info: tresc/pics/rastrigin_function.png used on input line 8
+0.
 (pdftex.def)             Requested size: 453.1364pt x 248.24936pt.
+
+! Argument of \@tempf has an extra }.
+<inserted text> 
+                \par 
+l.81 ... Rastrigina dwóch zmiennych\footnotemark}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+\@captype {\@xfootnotemark }\def \reserved@b {\stepcounter {footnote}\ETC.
+! Paragraph ended before \@tempf was complete.
+<to be read again> 
+                   \par 
+l.81 ... Rastrigina dwóch zmiennych\footnotemark}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
 
 Underfull \vbox (badness 2150) has occurred while \output is active []
 
@@ -737,7 +775,7 @@ Underfull \vbox (badness 2150) has occurred while \output is active []
 
 
 (./tresc/psoTesty.tex
-Rozdzia\l  6.
+Rozdzia\l  5.
 
 <tresc/pics/psotesty/compared_baza_velo_fitness.png, id=99, 578.16pt x 433.62pt
 >
@@ -901,7 +939,7 @@ pics/psotesty/czasy_psotesty.png>]
 \openout2 = `tresc/psovsgenetyczne.aux'.
 
  (./tresc/psovsgenetyczne.tex
-Rozdzia\l  7.
+Rozdzia\l  6.
 [35
 
 
@@ -1129,7 +1167,7 @@ nput line 263.
 \openout2 = `tresc/podsumowanie.aux'.
 
  (./tresc/podsumowanie.tex
-Rozdzia\l  8.
+Rozdzia\l  7.
 [50
 
 
@@ -1148,43 +1186,40 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 92.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) [53]
-Underfull \hbox (badness 10000) in paragraph at lines 178--181
+Underfull \hbox (badness 10000) in paragraph at lines 179--183
 \T1/pcr/m/n/10.95 http://155.158.112.34/algorytmyewolucyjne/materialy/inteligen
 cja
  []
 
 ) [54] (./praca.aux (./tresc/wstep.aux) (./tresc/genetyczne.aux)
-(./tresc/pso.aux) (./tresc/pyage.aux) (./tresc/ewaluacja.aux)
-(./tresc/psoTesty.aux) (./tresc/psovsgenetyczne.aux) (./tresc/podsumowanie.aux)
-(./tresc/bibliografia.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(./tresc/pso.aux) (./tresc/ewaluacja.aux) (./tresc/psoTesty.aux)
+(./tresc/psovsgenetyczne.aux) (./tresc/podsumowanie.aux)
+(./tresc/bibliografia.aux)) ) 
 Here is how much of TeX's memory you used:
- 5766 strings out of 494952
- 85727 string characters out of 6179606
- 160601 words of memory out of 5000000
- 8745 multiletter control sequences out of 15000+600000
- 70538 words of font info for 68 fonts, out of 8000000 for 9000
+ 5810 strings out of 494952
+ 86328 string characters out of 6179606
+ 160137 words of memory out of 5000000
+ 8787 multiletter control sequences out of 15000+600000
+ 79616 words of font info for 77 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
- 38i,12n,45p,970b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
-8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on praca.pdf (54 pages, 1874967 bytes).
+ 38i,12n,45p,970b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhv
+b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a
+.pfb>
+Output written on praca.pdf (54 pages, 1872920 bytes).
 PDF statistics:
  316 PDF objects out of 1000 (max. 8388607)
  171 compressed objects within 2 object streams

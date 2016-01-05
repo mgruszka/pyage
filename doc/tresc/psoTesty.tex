@@ -1,4 +1,4 @@
-\chapter{Algorytm roju cząstek na platformie PyAGE}
+\chapter{Algorytm roju cząstek w środowiku wieloagentowym}
 \label{cha:psoTesty}
 
 W celu znalezienia najlepszej konfiguracji algorytmu roju cząstek został wykonany szereg jego modyfikacji. Został wykonany podstawowy algorytm, bazujący na trzech parametrach:
@@ -18,7 +18,7 @@ W czasie działania algorytmu liczebność populacji jest stała, żadne akcje w
 \section{Zmiana prędkości w czasie}
 \label{sec:psotestyspowolnienie}
 
-Pierwszą wykonaną modyfikacją była zmiana prędkości cząstek w czasie. Wraz z postępem algorytmu prędkość przemieszczania się cząsteczek mnożona jest o współczynnik $\omega$ wyznaczany ze wzoru \ref{equ:psoTestySpowolnienie}, gdzie $T$ jest numerem aktualnej iteracji, a $T_{max}$ ilością iteracji podaną jako warunek stopu.
+Pierwszą wykonaną modyfikacją była zmiana prędkości cząstek w czasie. Wraz z postępem algorytmu prędkość przemieszczania się cząsteczek mnożona jest o współczynnik $\omega$ wyznaczany ze wzoru \ref{equ:psoTestySpowolnienie}, gdzie $T$ jest numerem aktualnej iteracji, a $T_{max}$ liczbą iteracji podaną jako warunek stopu.
 
 \begin{equation}
 \label{equ:psoTestySpowolnienie}
@@ -134,7 +134,7 @@ Poszczególnym parametrom zostały nadane następujące wagi:
 
 Wykorzystanie wag parametrów pozwoliło znacząco poprawić jakość rozwiązania w początkowych iteracjach, jednak wraz z postępem algorytmu wynik utrzymywał się na stałym poziomie. Dopiero wykorzystanie wraz z wagami spowolnienia pozwoliło osiągać coraz dokładniejszy wynik w kolejnych iteracjach. Wykorzystanie jedynie wag parametrów zwiększyło również różnorodność pomiędzy agentami.
 
-\section{Podsumowanie}
+\section{Wnioski}
 Jak można zauważyć na wykresie \ref{fig:compared_baza_v_randV_paramV_fitness}, najlepsze dopasowanie zostało osiągnięte, gdy zostały połączone ze sobą wszystkie trzy modyfikacje, czyli spowolnienie prędkości cząsteczek w czasie, dodanie losowego wektora oraz nadanie wag wszystkim parametrom. 
 
 Zastosowanie spowolnienia pozwoliło cząsteczkom na początkowe szybkie, ale niedokładne przeszukiwanie przestrzeni rozwiązań. Wraz z postępem algorytmu ich wolniejsza prędkość przemieszczania pozwoliła na dokładniejsze przeszukiwania w momencie, gdy rój znajdował się bliżej prawidłowego rozwiązania. Jednocześnie pozwoliło to cząsteczkom na uniknięcie ,,przeskakiwania'' prawidłowego rozwiązania, czyli omijania go w przypadku, gdy były już bardzo blisko niego.

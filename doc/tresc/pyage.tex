@@ -1,0 +1,40 @@
+\chapter{Wieloagentowy system pyAgE}
+\label{cha:pyage}
+W roku 1997 została zaproponowana definicja agenta, która definiuje go jako ,,system, który usytuowany jest w pewnym środowisku, i którego jednocześnie jest częścią; agent obserwuje (odbiera, odczuwa) to środowisko oraz działa w nim: w czasie, według własnego planu, wpływając na to, co będzie mógł zaobserwować w przyszłości'' \cite{opisagenta}. Definicja powstała na skutek wnikliwej analizy różnych podejść agentowości.
+
+Zgodnie z powyższą definicją, za najistotniejsze cechy agenta należy uznać \cite{agentowyemas}:
+\begin{itemize}
+\item usytuowanie - agent jest częścią środowiska, w którym się znajduje
+\item autonomia - agent ma pełną kontrolę nad swoim stanem wewnętrznym oraz akcjami
+\item reaktywność - agent postrzega środowisko i zmiany zachodzące w nim i reaguje na nie
+\item zdolności socjalne - agent współdziała z innymi agentami
+\end{itemize}
+
+System agentowy to system komputerowy, którego główną abstrakcją jest pojęcie agenta \cite{systemagentowy}. System składający się z wielu współdziałających agentów nazywany jest systemem wieloagentowym. Interakcje między agentami, mogące przyjąć formę kooperacji, koordynacji bądź negocjacji są najistotniejszą cechą charakterystyczną tej klasy systemów i stanowią o ich sile. 
+
+\section{Platforma pyAgE}
+\label{sec:pyageopis}
+Platformą, na której zostały uruchomione porównywane algorytmy był napisany w języku Python pyAgE \cite{pyagestrona} \cite{pyage}. Jest to środowisko wieloagentowe, bazujące na implementacji pod nazwą AgE (ang. Agent-based Evolution). Platforma AgE powstała na podstawe założeń i wymagań przedstawionych powyżej.
+
+Najważniejszą częścią systemu jest dostarczenie mechanizmu wykonywania obliczeń. Podstawowe elementy implementacji systemu stanowią bazę dla realizacji różnej klasy rozwiązań. Ponadto, dzięki odpowiedniej konfiguracji rozwiązania mogą zostać uruchomione jako sieciowa usługa obliczeniowa.
+
+Jak zostało wspomniane wcześniej, podstawową jednostką składową jest agent, gdzie każdy agent jest unikalny w skali całego systemu. W środowisku można wyróżnić również agregaty, które mogą ,,posiadać'' agentów, którzy współdziałają ze sobą. Agregaty zarządzają działaniem podległych im agentów, między innymi pośredniczą w komunikacji między nimi, nadzorują cykl ich życia czy wykonywanie akcji.
+
+W środowisku dostępne są następujące funkcjonalności:
+\begin{itemize}
+\item zlecenie przez agenta wykonania pewnej akcji
+\item zapytanie przez agenta o własności innych agentów
+\item dodanie nowego agenta
+\item migracja agenta
+\item śmierć agenta
+\end{itemize}
+
+Platforma została stworzona z myślą o algorytmach ewolucyjnych, między innymi algorytmie EMAS. Dzięki temu dostarcza mechanizmu wysp obliczeniowych, które są jedną ze składowych części algorytmu EMAS, szerzej opisanego w rozdziale \ref{sec:emas}. To właśnie pomiędzy tymi wyspami możliwa jest migracja poszczególnych agentów.
+
+\section{Rozwinięcie platformy pyAgE}
+
+Jednym z celów pracy było wykonanie implementacji pozwalającej na wykonywanie obliczeń za pomocą algorytmów rojowych. W tym celu zostały wykonane komponenty działające na dostarczonej platformie umożliwiające wykorzystanie takiej klasy algorytmów. 
+
+W analizowanym podejściu każda cząsteczka jest zastępowana przez pojedynczego agenta. Wymagało to rozszerzenia wiedzy agenta o informacje wymagane przez algorytmy rojowe, takie jak najlepsza pozycja w stadzie czy historycznie najlepsza pozycja. Skutkowało to dodaniem dla każdego agenta struktur przechowujących pewne informacje.
+
+Kolejnym etapem było dodanie konfiguracji uruchomieniowej, uwzględniającej możliwość modyfikacji wszystkich istotnych parametrów. Konfiguracja ta, bazująca na już istniejących, nadała możliwość łatwego i szybkiego porównywania dobieranych parametrów, ale także analizy rozwiązań względem istniejących algorytmów.

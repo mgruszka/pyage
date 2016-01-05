@@ -3,46 +3,45 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Diagram blokowy klasycznego algorytmu ewolucyjnego}}{10}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Wizualizacja ruchu cz\IeC {\k a}stki PSO}}{15}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagram blokowy algorytmu PSO}}{17}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Wizualizacja ruchu cz\IeC {\k a}stki PSO}}{17}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagram blokowy algorytmu PSO}}{18}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Krzy\IeC {\.z}owanie}}{21}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Funkcja Rastrigina dw\IeC {\'o}ch zmiennych\let \reserved@d =[\def {\@@par }}}{23}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Krzy\IeC {\.z}owanie}}{21}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Funkcja Rastrigina dw\IeC {\'o}ch zmiennych \cite {rastrigin}}}{23}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy spowolnieniu cz\IeC {\k a}steczek}}{26}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy spowolnieniu cz\IeC {\k a}steczek}}{26}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy spowolnieniu cz\IeC {\k a}steczek}}{27}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy dodaniu losowego wektora}}{28}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy dodaniu losowego wektora}}{28}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy dodaniu losowego wektora}}{29}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy dodaniu wag parametrom}}{30}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy dodaniu wag parametrom}}{30}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy dodaniu wag parametrom}}{31}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Por\IeC {\'o}wnanie dopasowania najlepszych konfiguracji}}{32}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD najlepszych konfiguracji}}{33}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI najlepszych konfiguracji}}{33}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Por\IeC {\'o}wnanie czasu wykonania dla ka\IeC {\.z}dej konfiguracji}}{34}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy spowolnieniu cz\IeC {\k a}steczek}}{26}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy spowolnieniu cz\IeC {\k a}steczek}}{26}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy spowolnieniu cz\IeC {\k a}steczek}}{27}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy dodaniu losowego wektora}}{28}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy dodaniu losowego wektora}}{28}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy dodaniu losowego wektora}}{29}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy dodaniu wag parametrom}}{30}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy dodaniu wag parametrom}}{30}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy dodaniu wag parametrom}}{31}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Por\IeC {\'o}wnanie dopasowania najlepszych konfiguracji}}{32}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD najlepszych konfiguracji}}{33}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI najlepszych konfiguracji}}{33}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Por\IeC {\'o}wnanie czasu wykonania dla ka\IeC {\.z}dej konfiguracji}}{34}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy jednej wyspie}}{37}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy jednej wyspie}}{37}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy jednej wyspie}}{38}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Por\IeC {\'o}wnanie liczebno\IeC {\'s}ci przy jednej wyspie}}{38}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy trzech wyspach}}{39}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy trzech wyspach}}{40}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy trzech wyspach}}{40}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Por\IeC {\'o}wnanie liczebno\IeC {\'s}ci przy trzech wyspach}}{41}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy sze\IeC {\'s}ciu wyspach}}{42}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy sze\IeC {\'s}ciu wyspach}}{42}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy sze\IeC {\'s}ciu wyspach}}{43}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Por\IeC {\'o}wnanie liczebno\IeC {\'s}ci przy sze\IeC {\'s}ciu wyspach}}{43}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy dziewi\IeC {\k e}ciu wyspach}}{44}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy dziewi\IeC {\k e}ciu wyspach}}{45}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy dziewi\IeC {\k e}ciu wyspach}}{45}
-\contentsline {figure}{\numberline {7.16}{\ignorespaces Por\IeC {\'o}wnanie liczebno\IeC {\'s}ci przy dziewi\IeC {\k e}ciu wyspach}}{46}
-\contentsline {figure}{\numberline {7.17}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy dwunastu wyspach}}{47}
-\contentsline {figure}{\numberline {7.18}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy dwunastu wyspach}}{47}
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy dwunastu wyspach}}{48}
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Por\IeC {\'o}wnanie liczebno\IeC {\'s}ci przy dwunastu wyspach}}{48}
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Por\IeC {\'o}wnanie czasu oblicze\IeC {\'n}}}{49}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy jednej wyspie}}{37}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy jednej wyspie}}{37}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy jednej wyspie}}{38}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Por\IeC {\'o}wnanie liczebno\IeC {\'s}ci przy jednej wyspie}}{38}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy trzech wyspach}}{39}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy trzech wyspach}}{40}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy trzech wyspach}}{40}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Por\IeC {\'o}wnanie liczebno\IeC {\'s}ci przy trzech wyspach}}{41}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy sze\IeC {\'s}ciu wyspach}}{42}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy sze\IeC {\'s}ciu wyspach}}{42}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy sze\IeC {\'s}ciu wyspach}}{43}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Por\IeC {\'o}wnanie liczebno\IeC {\'s}ci przy sze\IeC {\'s}ciu wyspach}}{43}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy dziewi\IeC {\k e}ciu wyspach}}{44}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy dziewi\IeC {\k e}ciu wyspach}}{45}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy dziewi\IeC {\k e}ciu wyspach}}{45}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Por\IeC {\'o}wnanie liczebno\IeC {\'s}ci przy dziewi\IeC {\k e}ciu wyspach}}{46}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Por\IeC {\'o}wnanie dopasowania przy dwunastu wyspach}}{47}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MSD przy dwunastu wyspach}}{47}
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Por\IeC {\'o}wnanie r\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}ci MOI przy dwunastu wyspach}}{48}
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Por\IeC {\'o}wnanie liczebno\IeC {\'s}ci przy dwunastu wyspach}}{48}
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Por\IeC {\'o}wnanie czasu oblicze\IeC {\'n}}}{49}
 \addvspace {10\p@ }

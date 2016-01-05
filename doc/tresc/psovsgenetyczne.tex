@@ -3,7 +3,7 @@
 
 Najlepsza konfiguracja algorytmu rojowego, która została wybrana na podstawie eksperymentów opisanych w rozdziale \ref{cha:psoTesty} została poddana dalszym modyfikacjom. Nowopowstałe konfiguracje wykorzystywały takie elementy platformy pyAgE jak sąsiedztwo agentów czy wyspy obliczeniowe.
 
-W rozdziałach od \ref{sec:jednawyspa} do \ref{sec:dwanasciewysp} znajdują się porównania jakości algorytmów w zależności od ilości wysp obliczeniowych. Rozmiar populacji początkowej we wszystkich eksperymentach wynosił 360 agentów, którzy w momencie wykorzystywania wysp obliczeniowych byli równomiernie między nimi rozdzielani.
+W rozdziałach od \ref{sec:jednawyspa} do \ref{sec:dwanasciewysp} znajdują się porównania jakości algorytmów w zależności od liczby wysp obliczeniowych. Rozmiar populacji początkowej we wszystkich eksperymentach wynosił 360 agentów, którzy w momencie wykorzystywania wysp obliczeniowych byli równomiernie między nimi rozdzielani.
 
 Konfiguracja algorytmu EMAS dostarczona przez platformę pyAgE widnieje na wykresach jako "femas single", natomiast podstawowa konfiguracja algorytmu roju cząstek wypracowana na podstawie eksperymentów - jako "PSO basic".
 
@@ -13,14 +13,14 @@ Konfiguracja algorytmu EMAS dostarczona przez platformę pyAgE widnieje na wykre
 Zostały wykonane dwie modyfikacje algorytmu roju cząstek w oparciu o mechanizmy i gotowe komponenty platformy pyAgE.
 
 
-\subsection{Połączenie algorytmów EMAS i PSO}
+\subsection*{Połączenie algorytmów EMAS i PSO}
 
 Pierwszą modyfikacją było połączenie kroków algorytmu ewolucyjnego z krokami algorytmu rojowego. Po zastosowaniu tej modyfikacji każdy agent w pojedynczej iteracji na początku wykonywał wszystkie akcje wynikające z mechanizmów algorytmu EMAS, po czym przemieszczał się po przestrzeni rozwiązań zgodnie z mechanizmami algorytmu roju cząstek.
 
 Takie podejście powodowało modyfikację genotypu danego agenta i pozwalało nawet tym agentom z niskim poziomem energii po czasie ją odzyskać. W związku z tym oczekiwane było polepszenie jakości rozwiązania wypracowanego przez taką populację, jednak kosztem czasu wykonywanych obliczeń. Modyfikacja ta opisywana jest na wykresach jako "Femas PSO"
 
 
-\subsection{Wykorzystanie sąsiedztwa agentów w środowisku}
+\subsection*{Wykorzystanie sąsiedztwa agentów w środowisku}
 
 Drugim elementem dostarczonym przez platformę, a użytym do modyfikacji algorytmu, było wykorzystanie sąsiedztwa agentów wewnątrz wysp obliczeniowych. Położenie agenta wewnątrz wyspy w podstawowej wersji algorytmu rojowego nie powodowało modyfikacji jego genotypu. Algorytm ewolucyjny wykorzystywał położenie agenta wewnątrz wyspy do obsługi interakcji pomiędzy agentami, która może zaistnieć tylko w przypadku, gdy agenci bezpośrednio sąsiadują ze sobą.
 
@@ -33,7 +33,7 @@ Spodziewanym efektem tej modyfikacji był nieznaczny wzrost czasu obliczeń, jed
 \section{Jedna wyspa obliczeniowa}
 \label{sec:jednawyspa}
 
-Wyresy od \ref{fig:compared_fintess1} do \ref{fig:compared_count1} prezentują wyniki zebrane w przypadku wykorzystania jednej wyspy obliczeniowej. Na wykresie \ref{fig:compared_count1} można zwrócić uwagę, że algorytmy ewolucyjne przez pewną ilość iteracji zmniejszają swoją populację, po czym stabilizują się na stałym poziomie. Algorytm łączący w sobie kroki ewolucyjne i rojowe również wykazuje podobne zachowanie.
+Wyresy od \ref{fig:compared_fintess1} do \ref{fig:compared_count1} prezentują wyniki zebrane w przypadku wykorzystania jednej wyspy obliczeniowej. Na wykresie \ref{fig:compared_count1} można zwrócić uwagę, że algorytmy ewolucyjne przez pewną liczbę iteracji zmniejszają swoją populację, po czym stabilizują się na stałym poziomie. Algorytm łączący w sobie kroki ewolucyjne i rojowe również wykazuje podobne zachowanie.
 
 Można zauważyć, że algorytm EMAS w początkowych krokach osiąga dużo niższe wartości dopasowania niż pozostałe algorytmy. Od pewnego momentu jednak poprawa jakości rozwiązań pozostałych algorytmów utrzymuje się na podobnym poziomie, podczas gdy EMAS nadal udoskonala swoje rozwiązanie. 
 
@@ -116,7 +116,7 @@ Zauważalny jest wzrost prędkości z jaką algorytm EMAS osiąga bardzo dobre w
 
 \section{Sześć wysp obliczeniowych}
 
-Wraz ze wzrostem ilości wysp obliczeniowych nadal zwiększa się różnorodność populacji, co można zaobserwować na wykresac \ref{fig:compared_msd_diversity6} i \ref{fig:compared_moi_diversity6}. Różnica w jakości rozwiązania podstawowego algorytmu EMAS (co obrazuje wykres \ref{fig:compared_fintess6}) nie jest już aż tak zauważalna jak przy przejściu z jednej do trzech wysp obliczeniowych. 
+Wraz ze wzrostem liczby wysp obliczeniowych nadal zwiększa się różnorodność populacji, co można zaobserwować na wykresac \ref{fig:compared_msd_diversity6} i \ref{fig:compared_moi_diversity6}. Różnica w jakości rozwiązania podstawowego algorytmu EMAS (co obrazuje wykres \ref{fig:compared_fintess6}) nie jest już aż tak zauważalna jak przy przejściu z jednej do trzech wysp obliczeniowych. 
 
 Zmianę liczebności populacji można zaobserwować na wykresie \ref{fig:compared_count6}. Algorytm wykorzystujący połączenie kroków ewolucyjnych i rojowych po początkowych zmianach w pierwszych iteracjach utrzymuje stałą liczebność zbliżoną do startowej.
 
@@ -158,7 +158,7 @@ Zmianę liczebności populacji można zaobserwować na wykresie \ref{fig:compare
 
 \section{Dziewięć wysp obliczeniowych}
 
-Dalsze zwiększanie ilości wysp obliczeniowych skutkuje poprawą wyniku algorytmu łączącego kroki ewolucyjne i rojowe. Jednocześnie zauważalny jest ciągły wzrost różnorodności populacji we wszystkich badanych algorytmach. Zmienianie się mierzonych wartości wraz z postępem iteracji można zaobserwować na wykresach \ref{fig:compared_fintess9}, \ref{fig:compared_msd_diversity9}, \ref{fig:compared_moi_diversity9} i \ref{fig:compared_count9}.
+Dalsze zwiększanie liczby wysp obliczeniowych skutkuje poprawą wyniku algorytmu łączącego kroki ewolucyjne i rojowe. Jednocześnie zauważalny jest ciągły wzrost różnorodności populacji we wszystkich badanych algorytmach. Zmienianie się mierzonych wartości wraz z postępem iteracji można zaobserwować na wykresach \ref{fig:compared_fintess9}, \ref{fig:compared_msd_diversity9}, \ref{fig:compared_moi_diversity9} i \ref{fig:compared_count9}.
 
 
 
@@ -202,9 +202,9 @@ Dalsze zwiększanie ilości wysp obliczeniowych skutkuje poprawą wyniku algoryt
 \section{Dwanaście wysp obliczeniowych}
 \label{sec:dwanasciewysp}
 
-Ostatnią porównywaną ilością wysp obliczeniowych jest dwanaście, oznacza to, że na każdą z wysp przypada na początku 30 agentów. Wartość dopasowania poszczególnych algorytmów znajduje się na wykresie \ref{fig:compared_fintess12}.
+Ostatnią porównywaną liczbą wysp obliczeniowych jest dwanaście, oznacza to, że na każdą z wysp przypada na początku 30 agentów. Wartość dopasowania poszczególnych algorytmów znajduje się na wykresie \ref{fig:compared_fintess12}.
 
-Ponadto, można zauważyć bardzo wysoką różnorodność (wykresy \ref{fig:compared_msd_diversity12} i \ref{fig:compared_moi_diversity12}) - zwiększenie ilości wyp obliczeniowych do dwunastu spowodowało większe zmniejszenie liczebność populacji w przypadku algorytmów wykorzystujących operacje ewolucyjne (wykres \ref{fig:compared_count12}), niż miało to miejsce w przypadku mniejszej liczby wysp.
+Ponadto, można zauważyć bardzo wysoką różnorodność (wykresy \ref{fig:compared_msd_diversity12} i \ref{fig:compared_moi_diversity12}) - zwiększenie liczby wyp obliczeniowych do dwunastu spowodowało większe zmniejszenie liczebność populacji w przypadku algorytmów wykorzystujących operacje ewolucyjne (wykres \ref{fig:compared_count12}), niż miało to miejsce w przypadku mniejszej liczby wysp.
 
 \clearpage
 
@@ -244,17 +244,17 @@ Ponadto, można zauważyć bardzo wysoką różnorodność (wykresy \ref{fig:com
 
 
 
-\section{Podsumowanie}
+\section{Wnioski}
 
-Na wykresie \ref{fig:compared_time} przedstawione zostały średnie czasy wykonania dla każdej z analizowanych ilości wysp obliczeniowych.  Zauważalny jest narzut wynikający z migracji pomiędzy wyspami, jednak wraz ze wzrostem ilości wysp niwelowany jest on przez zmniejszenie ilości agentów na każdą wyspę, a co za tym idzie, zmniejszeniem ilości akcji wykonywanych.
+Na wykresie \ref{fig:compared_time} przedstawione zostały średnie czasy wykonania dla każdej z analizowanych liczby wysp obliczeniowych.  Zauważalny jest narzut wynikający z migracji pomiędzy wyspami, jednak wraz ze wzrostem liczby wysp niwelowany jest on przez zmniejszenie liczby agentów na każdą wyspę, a co za tym idzie, zmniejszeniem liczby akcji wykonywanych.
 
 Spodziewanym rezultatem jest dłuższy czas wykonywania algorytmu zawierającego dodatkowy wektor przesunięcia cząsteczki w przestrzeni rozwiązań, ponieważ wymaga to dodatkowego porównania i obliczenia na każdą cząsteczkę w każdej iteracji. Jest to zauważalne na wykresie, gdzie wyraźnie widać, że czas wykonania algorytmu wykorzystującego sąsiedztwo jest nieznacznie większy od podstawowego algorytmu rojowego.
 
 Algorytm wykorzystujący kroki algorytmu ewolucyjnego przed rojowymi zauważalnie wyróżnia się dłuższym czasem wykonania, jednak jednocześnie idzie za tym jego lepsza jakość niż pozostałych algorytmów wykorzystujących rój. Obserwacja ta potwierdziła tezę postawioną na początku rozdziału, mówiącą że połączenie tych dwóch algorytmów miało skutkować lepszą jakością rozwiązania kosztem czasu wykonywania.
 
-Zauważalny jest znaczący wzrost różnorodności populacji zależnie od ilości wysp obliczeniowych, jest to efekt spodziewany, którego źródłem jest rozdzielenie grup agentów od siebie i ich częściowo niezależne przeszukiwanie przestrzeni rozwiązań. Dzięki rozdzieleniu agenci wpływają na sebie w mniejszych grupach, przez co są w stanie przeszukać różne częsci przestrzeni rozwiązań.
+Zauważalny jest znaczący wzrost różnorodności populacji zależnie od liczby wysp obliczeniowych, jest to efekt spodziewany, którego źródłem jest rozdzielenie grup agentów od siebie i ich częściowo niezależne przeszukiwanie przestrzeni rozwiązań. Dzięki rozdzieleniu agenci wpływają na sebie w mniejszych grupach, przez co są w stanie przeszukać różne częsci przestrzeni rozwiązań.
 
-Wykorzystanie dodatkowego parametru w postaci sąsiedztwa poprawiło jakość rozwiązania przy jednoczesnym niewielkim wzroście czasu obliczeń. Wykorzystanie większej ilości wysp obliczeniowych nie skutkowało znaczącą poprawą jakości, jak miało to miejsce w przypadku algorytmów wykorzystujących kroki ewolucyjne. 
+Wykorzystanie dodatkowego parametru w postaci sąsiedztwa poprawiło jakość rozwiązania przy jednoczesnym niewielkim wzroście czasu obliczeń. Wykorzystanie większej liczby wysp obliczeniowych nie skutkowało znaczącą poprawą jakości, jak miało to miejsce w przypadku algorytmów wykorzystujących kroki ewolucyjne. 
 
 
 
